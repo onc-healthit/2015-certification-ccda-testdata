@@ -2485,7 +2485,7 @@ PROBLEM LIST
                   <list
                      listType="ordered">
                      <item><content
-                           ID="problem1">Pneumonia : Status - Resolved</content></item>
+                           ID="problem1">Pneumonia : Status - Active</content></item>
                   </list>
                </text>
                <entry
@@ -2503,11 +2503,9 @@ PROBLEM LIST
                         codeSystem="2.16.840.1.113883.5.6"
                         displayName="Concern"/>
                      <statusCode
-                        code="completed"/>
+                        code="active"/>
                      <effectiveTime>
                         <low
-                           value="20120806"/>
-                        <high
                            value="20120806"/>
                      </effectiveTime>
                      <entryRelationship
@@ -2539,37 +2537,6 @@ PROBLEM LIST
                               code="233604007"
                               codeSystem="2.16.840.1.113883.6.96"
                               displayName="Pneumonia"/>
-                           <entryRelationship
-                              typeCode="REFR">
-                              <observation
-                                 classCode="OBS"
-                                 moodCode="EVN">
-                                 <!-- Problem observation template -->
-                                 <templateId
-                                    root="2.16.840.1.113883.10.20.22.4.68"/>
-                                 <id
-                                    root="ab1791b0-5a25-31b5-b0de-0800200c9a66"/>
-                                 <code
-                                    code="409586006"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Complaint"/>
-                                 <text>
-                                    <reference
-                                       value="#problem1"/>
-                                 </text>
-                                 <statusCode
-                                    code="completed"/>
-                                 <effectiveTime>
-                                    <low
-                                       value="20120806"/>
-                                 </effectiveTime>
-                                 <value
-                                    xsi:type="CD"
-                                    code="233604007"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Pneumonia"/>
-                              </observation>
-                           </entryRelationship>
                            <entryRelationship
                               typeCode="SUBJ"
                               inversionInd="true">
@@ -2610,10 +2577,10 @@ PROBLEM LIST
                                     code="completed"/>
                                  <value
                                     xsi:type="CD"
-                                    code="162467007"
+                                    code="161901003"
                                     codeSystem="2.16.840.1.113883.6.96"
                                     codeSystemName="SNOMED CT"
-                                    displayName="Symptom Free"/>
+                                    displayName="Chronically Ill"/>
                               </observation>
                            </entryRelationship>
                         </observation>
