@@ -1384,8 +1384,8 @@ MEDICATIONS
                      <tbody>
                         <tr>
                            <td><content
-                                 ID="Med1">Albuterol 0.09 MG/ACTUAT inhalant solution</content></td>
-                           <td>0.09 MG/ACTUAT inhalant solution, 2 puffs once</td>
+                                 ID="Med1">Albuterol 0.09 MG/ACTUAT inhalant powder</content></td>
+                           <td>0.09 MG/ACTUAT inhalant powder, 2 puffs once</td>
                            <td>20120806</td>
                            <td>Active</td>
                            <td>Pneumonia (233604007 SNOMED-CT)</td>
@@ -1406,7 +1406,7 @@ MEDICATIONS
                         root="cdbd33f0-5a16-31a6-9fe1-0800200c9a66"/>
                      <text>
                         <reference
-                           value="#Med1"/>0.09 MG/ACTUAT inhalant solution, 2 puffs </text>
+                           value="#Med1"/>0.09 MG/ACTUAT inhalant powder, 2 puffs </text>
                      <statusCode
                         code="completed"/>
                      <effectiveTime
@@ -1449,16 +1449,11 @@ MEDICATIONS
                               root="2a620155-5a17-31a7-92b3-5d9815ff4ee8"/>
                            <manufacturedMaterial>
                               <code
-                                 code="573621"
+                                 code="582498"
                                  codeSystem="2.16.840.1.113883.6.88"
-                                 displayName="Albuterol 0.09 MG/ACTUAT inhalant solution">
+                                 displayName="Albuterol 0.09 MG/ACTUAT inhalant powder">
                                  <originalText><reference
                                        value="#Med1"/></originalText>
-                                 <translation
-                                    code="573621"
-                                    displayName="Proventil 0.09 MG/ACTUAT inhalant solution"
-                                    codeSystem="2.16.840.1.113883.6.88"
-                                    codeSystemName="RxNorm"/>
                               </code>
                            </manufacturedMaterial>
                            <manufacturerOrganization>
@@ -1565,16 +1560,11 @@ MEDICATIONS
                                     root="2a620155-5a19-31a9-92b3-5d9815ff4ee8"/>
                                  <manufacturedMaterial>
                                     <code
-                                       code="573621"
+                                       code="582498"
                                        codeSystem="2.16.840.1.113883.6.88"
-                                       displayName="Albuterol 0.09 MG/ACTUAT inhalant solution">
+                                       displayName="Albuterol 0.09 MG/ACTUAT inhalant powder">
                                        <originalText><reference
                                              value="#Med1"/></originalText>
-                                       <translation
-                                          code="573621"
-                                          displayName="Albuterol 0.09 MG/ACTUAT inhalant solution"
-                                          codeSystem="2.16.840.1.113883.6.88"
-                                          codeSystemName="RxNorm"/>
                                     </code>
                                  </manufacturedMaterial>
                                  <manufacturerOrganization>
@@ -1662,16 +1652,11 @@ MEDICATIONS
                                     root="2a620155-5a22-31b2-92b3-5d9815ff4ee8"/>
                                  <manufacturedMaterial>
                                     <code
-                                       code="573621"
+                                       code="582498"
                                        codeSystem="2.16.840.1.113883.6.88"
-                                       displayName="Albuterol 0.09 MG/ACTUAT inhalant solution">
+                                       displayName="Albuterol 0.09 MG/ACTUAT inhalant powder">
                                        <originalText><reference
                                              value="#Med1"/></originalText>
-                                       <translation
-                                          code="573621"
-                                          displayName="Albuterol 0.09 MG/ACTUAT inhalant solution"
-                                          codeSystem="2.16.840.1.113883.6.88"
-                                          codeSystemName="RxNorm"/>
                                     </code>
                                  </manufacturedMaterial>
                                  <manufacturerOrganization>

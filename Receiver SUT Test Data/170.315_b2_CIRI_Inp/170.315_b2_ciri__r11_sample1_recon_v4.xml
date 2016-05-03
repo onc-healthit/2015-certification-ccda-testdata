@@ -1389,8 +1389,8 @@ MEDICATIONS
                      <tbody>
                         <tr>
                            <td><content
-                                 ID="Med1">Proventil 0.09 MG/ACTUAT inhalant solution</content></td>
-                           <td>0.09 MG/ACTUAT inhalant solution, 2 puffs QID PRN wheezing</td>
+                                 ID="Med1">Proventil 0.09 MG/ACTUAT inhalant powder</content></td>
+                           <td>0.09 MG/ACTUAT inhalant powder, 2 puffs QID PRN wheezing</td>
                            <td>20070103</td>
                            <td>Active</td>
                            <td>Pneumonia (233604007 SNOMED CT)</td>
@@ -1411,7 +1411,7 @@ MEDICATIONS
                         root="cdbd33f0-5a30-31c0-9fe1-0800200c9a66"/>
                      <text>
                         <reference
-                           value="#Med1"/>0.09 MG/ACTUAT inhalant solution, 2 puffs QID PRN wheezing </text>
+                           value="#Med1"/>0.09 MG/ACTUAT inhalant powder, 2 puffs QID PRN wheezing </text>
                      <statusCode
                         code="completed"/>
                      <effectiveTime
@@ -1454,16 +1454,11 @@ MEDICATIONS
                               root="2a620155-5a31-31c1-92b3-5d9815ff4ee8"/>
                            <manufacturedMaterial>
                               <code
-                                 code="573621"
+                                 code="582498"
                                  codeSystem="2.16.840.1.113883.6.88"
-                                 displayName="Proventil 0.09 MG/ACTUAT inhalant solution">
+                                 displayName="Proventil 0.09 MG/ACTUAT inhalant powder">
                                  <originalText><reference
                                        value="#Med1"/></originalText>
-                                 <translation
-                                    code="573621"
-                                    displayName="Proventil 0.09 MG/ACTUAT inhalant solution"
-                                    codeSystem="2.16.840.1.113883.6.88"
-                                    codeSystemName="RxNorm"/>
                               </code>
                            </manufacturedMaterial>
                            <manufacturerOrganization>
@@ -1570,16 +1565,11 @@ MEDICATIONS
                                     root="2a620155-5a33-31c3-92b3-5d9815ff4ee8"/>
                                  <manufacturedMaterial>
                                     <code
-                                       code="573621"
+                                       code="582498"
                                        codeSystem="2.16.840.1.113883.6.88"
-                                       displayName="Proventil 0.09 MG/ACTUAT inhalant solution">
+                                       displayName="Proventil 0.09 MG/ACTUAT inhalant powder">
                                        <originalText><reference
                                              value="#Med1"/></originalText>
-                                       <translation
-                                          code="573621"
-                                          displayName="Proventil 0.09 MG/ACTUAT inhalant solution"
-                                          codeSystem="2.16.840.1.113883.6.88"
-                                          codeSystemName="RxNorm"/>
                                     </code>
                                  </manufacturedMaterial>
                                  <manufacturerOrganization>
@@ -1669,16 +1659,11 @@ MEDICATIONS
                                     root="2a620155-5a36-31c6-92b3-5d9815ff4ee8"/>
                                  <manufacturedMaterial>
                                     <code
-                                       code="573621"
+                                       code="582498"
                                        codeSystem="2.16.840.1.113883.6.88"
-                                       displayName="Proventil 0.09 MG/ACTUAT inhalant solution">
+                                       displayName="Proventil 0.09 MG/ACTUAT inhalant powder">
                                        <originalText><reference
                                              value="#Med1"/></originalText>
-                                       <translation
-                                          code="573621"
-                                          displayName="Proventil 0.09 MG/ACTUAT inhalant solution"
-                                          codeSystem="2.16.840.1.113883.6.88"
-                                          codeSystemName="RxNorm"/>
                                     </code>
                                  </manufacturedMaterial>
                                  <manufacturerOrganization>
