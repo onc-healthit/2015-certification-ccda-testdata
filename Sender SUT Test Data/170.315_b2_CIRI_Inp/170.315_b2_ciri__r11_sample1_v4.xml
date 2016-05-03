@@ -736,7 +736,7 @@ Allergies, Adverse Reactions, Alerts
                               code="419511003"
                               displayName="Propensity to adverse reaction to drug"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED CT">
+                              codeSystemName="SNOMED-CT">
                               <originalText>
                                  <reference
                                     value="#reaction2"/>
@@ -839,7 +839,7 @@ Allergies, Adverse Reactions, Alerts
                                     code="6736007"
                                     displayName="Moderate"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED CT"/>
+                                    codeSystemName="SNOMED-CT"/>
                               </observation>
                            </entryRelationship>
                         </observation>
@@ -919,7 +919,7 @@ ENCOUNTERS
                            <code
                               code="59058001"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED CT"
+                              codeSystemName="SNOMED-CT"
                               displayName="General Physician"/>
                         </assignedEntity>
                      </performer>
@@ -964,7 +964,7 @@ ENCOUNTERS
                               code="404684003"
                               displayName="Finding"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED CT"/>
+                              codeSystemName="SNOMED-CT"/>
                            <statusCode
                               code="completed"/>
                            <effectiveTime>
@@ -1093,7 +1093,7 @@ FAMILY HISTORY
                <!-- Family History Observation template -->
                <id root="d42ebf70-5c89-11db-b0de-0800200c9a66"/>
                <code code="55561003" displayName="Active" 
-                  codeSystemName="SNOMED CT" 
+                  codeSystemName="SNOMED-CT" 
                   codeSystem="2.16.840.1.113883.6.96"/>
                <statusCode code="completed"/>
                <effectiveTime value="1967"/>
@@ -1131,7 +1131,7 @@ FAMILY HISTORY
     <!--  ********  Family history observation template   ******** -->
                <id root="5bfe3ec0-5c8b-11db-b0de-0800200c9a66"/>
                <code code="7087005" displayName="Intermittent" 
-                  codeSystemName="SNOMED CT" 
+                  codeSystemName="SNOMED-CT" 
                   codeSystem="2.16.840.1.113883.6.96"/>
                <statusCode code="completed"/>
                <effectiveTime value="1950"/>
@@ -1388,7 +1388,7 @@ MEDICATIONS
                            <td>0.09 MG/ACTUAT inhalant solution, 2 puffs once</td>
                            <td>20120806</td>
                            <td>Active</td>
-                           <td>Pneumonia (233604007 SNOMED CT)</td>
+                           <td>Pneumonia (233604007 SNOMED-CT)</td>
                            <td><content ID="FillIns">Generic Substitition Allowed</content></td>
                         </tr>
                      </tbody>
@@ -1520,7 +1520,7 @@ MEDICATIONS
                               code="404684003"
                               displayName="Finding"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED CT"/>
+                              codeSystemName="SNOMED-CT"/>
                            <statusCode
                               code="completed"/>
                            <effectiveTime>
@@ -1899,7 +1899,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                            <td><content ID="DM1">0.11 MG/ACTUAT Metered Dose Once Daily</content></td>
                            <td>20120813</td>
                            <td>Active</td>
-                           <td>Bronchitis (32398004 SNOMED CT)</td>
+                           <td>Bronchitis (32398004 SNOMED-CT)</td>
                            <td><content ID="FillIns_DM">Generic Substitition Allowed</content></td>
                         </tr>
                      </tbody>
@@ -2057,7 +2057,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                                     code="404684003"
                                     displayName="Finding"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED CT"/>
+                                    codeSystemName="SNOMED-CT"/>
                                  <statusCode
                                     code="completed"/>
                                  <effectiveTime>
@@ -2412,7 +2412,7 @@ PROBLEM LIST
                                     xsi:type="CD"
                                     code="161901003"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED CT"
+                                    codeSystemName="SNOMED-CT"
                                     displayName="Chronically Ill"/>
                               </observation>
                            </entryRelationship>
@@ -2493,7 +2493,7 @@ PROCEDURES
                         <targetSiteCode
                            code="82094008"
                            codeSystem="2.16.840.1.113883.6.96"
-                           codeSystemName="SNOMED CT"
+                           codeSystemName="SNOMED-CT"
                            displayName="Lower Respiratory Tract Structure"/>
                         <performer>
                            <assignedEntity>
@@ -2754,7 +2754,7 @@ RESULTS
                         code="43789009"
                         displayName="CBC WO DIFFERENTIAL"
                         codeSystem="2.16.840.1.113883.6.96"
-                        codeSystemName="SNOMED CT"/>
+                        codeSystemName="SNOMED-CT"/>
                      <statusCode
                         code="completed"/>
                      <component>
