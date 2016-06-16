@@ -29,10 +29,8 @@
 	<!-- Title of this document -->
 	<title>170.315_b1_gold_sample1 test data</title>
 	<effectiveTime value="20150622"/>
-	<!-- Bad Code -->
-	<confidentialityCode code="jsalkjfaeuiauewyfaiwryewaiuaewyriuewayaie" displayName="normal" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
-	<!-- Bad Code -->
-	<languageCode code="asdyfautsyuatdsfiutsafiutsafia"/>
+	<confidentialityCode code="N" displayName="normal" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
+	<languageCode code="en-US"/>
 	<setId extension="sTT660" root="2.16.840.1.113883.19.5.99999.19"/>
 	<!-- Version of this document -->
 	<versionNumber value="1"/>
@@ -54,32 +52,24 @@
 			<!-- HP is "primary home" from HL7 AddressUse 2.16.840.1.113883.5.1119 -->
 			<patient>
 				<name use="L">
-				    <!-- Bad Element -->
-					<given></given>
+					<given>Caroline</given>
 					<given qualifier="BR">Carrie</given>
 					<given>Richard</given>
-					<!-- Bad Element -->
-					<family></family>
-					<!-- Bad Element -->
-					<suffix></suffix>
+					<family>Helberg</family>
 				</name>
-			    <!-- Bad Code -->
-				<administrativeGenderCode code="dnfdfdjdjdd" displayName="Female" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender"/>
+				<administrativeGenderCode code="F" displayName="Female" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender"/>
 				<!-- Date of birth need only be precise to the day -->
 				<birthTime value="19700501"/>
 				<maritalStatusCode code="M" displayName="Married" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode"/>
 				<religiousAffiliationCode code="1013" displayName="Christian (non-Catholic, non-specific)" codeSystem="2.16.840.1.113883.5.1076" codeSystemName="HL7 Religious Affiliation"/>
 				<!-- CDC Race and Ethnicity code set contains the five minimum race and ethnicity 
 					categories defined by OMB Standards -->
-					<!-- Bad Code -->
-				<raceCode code="dfsdffdsdsdsd" displayName="White" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
+				<raceCode code="2106-3" displayName="White" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
 				<!-- The raceCode extension is only used if raceCode is valued -->
 				<sdtc:raceCode code="2108-9" displayName="White European" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
-				<!-- BAd Code -->
-				<ethnicGroupCode code="tsdtdsfstyfdsytfstfsytfsytdfdsyfyds" displayName="Not Hispanic or Latino" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
+				<ethnicGroupCode code="2186-5" displayName="Not Hispanic or Latino" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
 				<languageCommunication>
-				    <!-- Bad Code -->
-					<languageCode code="sdtardytfeytdfsytdftsaydfytsadfsayds"/>
+					<languageCode code="en"/>
 					<modeCode code="ESP" displayName="Expressed spoken"
 						codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode"/>
 					<preferenceInd value="true"/>
@@ -408,10 +398,10 @@
 			<!-- edited as per test doc - all data relevant -db -->
 			<component>
 				<section>
-					<!-- *** Allergies and Intolerances Section (entries required) (V3) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
-					<!-- Alerts section template -->
+					<!-- *** Allergies and Intolerances Section (entries required) (V3) *** BAD -->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
+					<!-- section code -->
 					<code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>ALLERGIES AND ADVERSE REACTIONS</title>
 					<text>
@@ -608,9 +598,9 @@
 			<!-- although not listed in test data requirements, required as per CCD -db -->			
 			<component>
 				<section>
-					<!-- *** Medications Section (entries required) (V2) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+					<!-- *** Medications Section (entries required) (V2) *** BAD Templates -->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2014-06-09"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE"/>
 					<title>MEDICATIONS</title>
 					<text>
@@ -880,9 +870,9 @@
 			<!-- edited as per test doc - all data relevant -db -->		
 			<component>
 				<section>
-					<!--  *** Problem Section (entries required) (V3) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+					<!--  *** Problem Section (entries required) (V3) *** BAD Template Ids-->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEM LIST"/>
 					<title>PROBLEMS</title>
 					<text>
@@ -1107,9 +1097,9 @@
 			in CCD for Encounters. This will of course work for all other cases as well so is more universal. -db -->
 			<component>
 				<section>
-					<!-- *** Encounters section (entries required) (V3) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.22.1"/>
+					<!-- *** Encounters section (entries required) (V3) *** BAD Template Id-->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters"/>
 					<title>ENCOUNTERS</title>
 					<text>
@@ -1289,9 +1279,9 @@
 			<!-- edited as per test doc - all of this data is directly relevant -db -->
 			<component>
 				<section>
-					<!-- Procedures Section (entries required) (V2) -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.7.1" extension="2014-06-09"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+					<!-- Procedures Section (entries required) (V2) Bad Tempalte Ids-->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2014-06-09"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF PROCEDURES"/>
 					<title>PROCEDURES</title>
 					<text>
@@ -1430,9 +1420,9 @@
 			<!-- edited as per test doc - NOT all data is relevant, but all entries themselves are relevant -db -->	
 			<component>
 				<section>
-					<!-- *** Immunizations Section (entries required) (V2) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2014-06-09"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+					<!-- *** Immunizations Section (entries required) (V2) *** Bad Template Ids-->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
 					<title>IMMUNIZATIONS</title>
 					<text>
@@ -1558,8 +1548,8 @@
 			<component>
 				<section>
 					<!-- ** Vital Signs Section (entries required) (V3) ** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
 					<title>VITAL SIGNS</title>
 					<text>
@@ -1632,9 +1622,9 @@
 			<!-- edited as per test doc - most of this data is directly relevant -db -->
 			<component>
 				<section>
-					<!--  ** Social History Section (V3) ** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+					<!--  ** Social History Section (V3) ** Bad Template Id-->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social History"/>
 					<title>SOCIAL HISTORY</title>
 					<text>
@@ -1710,9 +1700,9 @@
 			<!-- edited as per test doc - all of this data is directly relevant -db -->
 			<component>
 				<section>
-					<!-- Results Section (entries required) (V3) -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+					<!-- Results Section (entries required) (V3) Bad Template Id-->
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RESULTS"/>
 					<title>RESULTS</title>
 					<text>

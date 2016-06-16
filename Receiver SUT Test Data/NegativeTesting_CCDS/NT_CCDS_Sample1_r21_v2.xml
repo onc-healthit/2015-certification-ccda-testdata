@@ -1425,7 +1425,7 @@
 			<component>
 				<section>
 					<!-- *** Immunizations Section (entries required) (V2) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2014-06-09"/>
+					<templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2015-08-01"/>
 					<templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
 					<!--BAD code -->
 					<code code="dsfdsfdsdfdfds" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
