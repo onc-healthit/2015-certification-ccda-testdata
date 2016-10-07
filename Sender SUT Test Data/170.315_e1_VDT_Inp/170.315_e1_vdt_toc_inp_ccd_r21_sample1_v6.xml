@@ -1446,7 +1446,7 @@
 								<tr>
 									<td ID="Encounter1"> Anemia in Chronic Kidney Disease</td>
 									<td>Community Health and Hospitals</td>
-									<td>June 22, 2015 at 8:00am</td>
+									<td>June 22, 2015 at 10:00am EST</td>
 								</tr>
 							</tbody>
 						</table>
@@ -1467,7 +1467,7 @@
 								<translation code="AMB" codeSystem="2.16.840.1.113883.5.4" displayName="Ambulatory" codeSystemName="HL7 ActEncounterCode"/>
 								-->
 							</code>
-							<effectiveTime value="20150622"/>
+							<effectiveTime value="201506221000-0500"/>
 							<performer>
 								<assignedEntity>
 									<!-- Provider NPI "99999999" -db -->
@@ -1556,7 +1556,7 @@
 							<code code="46241-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hospital Admission Diagnosis" />
 							<statusCode code="active" />
 							<effectiveTime>
-								<low value="20150622" />
+								<low value="201506221000-0500" />
 							</effectiveTime>
 							<!-- added participant to include service delivery location -db -->
 							<participant typeCode="LOC">
@@ -2310,6 +2310,7 @@
 							<reference value="#BirthSexInfo"/>
 						  </text>
 						  <statusCode code="completed"/>
+						  <effectiveTime value="20150622"/>
 						  <value code="F" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Female"/>
 						</observation>
 					</entry>
