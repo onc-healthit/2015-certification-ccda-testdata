@@ -70,7 +70,7 @@
    
    <!-- CONF 5256 -->
    <effectiveTime
-      value="20120813"/>
+      value="20120801000000-0000"/>
    
    <!-- 5259 -->
    <confidentialityCode
@@ -229,7 +229,7 @@
    
    <author>
       <time
-         value="20120813"/>
+         value="20120801"/>
       <assignedAuthor>
          <id
             extension="111111"
@@ -356,7 +356,7 @@
    </informationRecipient>
    <legalAuthenticator>
       <time
-         value="20120813"/>
+         value="20120801"/>
       <signatureCode
          code="S"/>
       <assignedEntity>
@@ -383,7 +383,7 @@
    </legalAuthenticator>
    <authenticator>
       <time
-         value="20120813"/>
+         value="20120801"/>
       <signatureCode
          code="S"/>
       <assignedEntity>
@@ -473,9 +473,9 @@
             displayName="Pnuemonia"/>
          <effectiveTime>
             <low
-               value="20120806"/>
+               value="20120801"/>
             <high
-               value="20120813"/>
+               value="20120806"/>
             
          </effectiveTime>
          <performer
@@ -489,9 +489,9 @@
             </functionCode>
             <time>
                <low
-                  value="20120806"/>
+                  value="20120801"/>
                <high
-                  value="20120813"/>
+                  value="20120806"/>
             </time>
             <assignedEntity>
                <id
@@ -547,9 +547,9 @@
             </functionCode>
             <time>
                <low
-                  value="20120806"/>
+                  value="20120801"/>
                <high
-                  value="20120813"/>
+                  value="20120806"/>
             </time>
             <assignedEntity>
                <id
@@ -607,9 +607,9 @@
             displayName="Pnuemonia"/>
          <effectiveTime>
             <low
-               value="20120806"/>
+               value="20120801"/>
             <high
-               value="20120813"/>
+               value="20120806"/>
          </effectiveTime>
          <responsibleParty>
             <assignedEntity>
@@ -678,11 +678,11 @@ Allergies, Adverse Reactions, Alerts
                      <tbody>
                         <tr>
                            <td><content
-                              ID="product2">Codeine</content></td>
+                              ID="product3">Aspirin</content></td>
                            <td><content
-                                 ID="reaction2">Shortness of Breath</content></td>
+                                 ID="reaction3">Hives</content></td>
                            <td><content
-                                 ID="severity2">Moderate</content></td>
+                                 ID="severity3">Mild to moderate</content></td>
                            <td>Active</td>
                         </tr>
                      </tbody>
@@ -697,7 +697,7 @@ Allergies, Adverse Reactions, Alerts
                         root="2.16.840.1.113883.10.20.22.4.30"/>
                      <!-- ** Allergy problem act ** -->
                      <id
-                        root="36e3e930-5a13-31a3-9fe1-0800200c9a66"/>
+                        root="36e3e930-5a26-31b6-9fe1-0800200c9a66"/>
                      <code
                         code="48765-2"
                         codeSystem="2.16.840.1.113883.6.1"
@@ -707,7 +707,7 @@ Allergies, Adverse Reactions, Alerts
                         code="active"/>
                      <effectiveTime>
                         <low
-                           value="20060501"/>
+                           value="20080501"/>
                      </effectiveTime>
                      <entryRelationship
                         typeCode="SUBJ">
@@ -718,7 +718,7 @@ Allergies, Adverse Reactions, Alerts
                            <templateId
                               root="2.16.840.1.113883.10.20.22.4.7"/>
                            <id
-                              root="4adc1020-5a14-31a4-9fe1-0800200c9a66"/>
+                              root="4adc1020-5a27-31b7-9fe1-0800200c9a66"/>
                            <code
                               code="ASSERTION"
                               codeSystem="2.16.840.1.113883.5.4"/>
@@ -726,34 +726,34 @@ Allergies, Adverse Reactions, Alerts
                               code="completed"/>
                            <effectiveTime>
                               <low
-                                 value="20060501"/>
+                                 value="20080501"/>
                            </effectiveTime>
                            <value
                               xsi:type="CD"
                               code="419511003"
                               displayName="Propensity to adverse reaction to drug"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED-CT">
+                              codeSystemName="SNOMED CT">
                               <originalText>
                                  <reference
-                                    value="#reaction2"/>
+                                    value="#reaction3"/>
                               </originalText>
                            </value>
 						   <author>
-										<time value="20120806"/>
-										<assignedAuthor>
-											<id extension="111111" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Henry</given>
-													<family>Seven</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
+								<time value="20120801"/>
+								<assignedAuthor>
+									<id extension="111111" root="2.16.840.1.113883.4.6"/>
+									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+										displayName="Allopathic &amp; Osteopathic Physicians"/>
+									<telecom use="WP" value="tel:+1(555)-555-1002"/>
+									<assignedPerson>
+										<name>
+											<given>Henry</given>
+											<family>Seven</family>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
+							</author>
                            <participant
                               typeCode="CSM">
                               <participantRole
@@ -761,13 +761,13 @@ Allergies, Adverse Reactions, Alerts
                                  <playingEntity
                                     classCode="MMAT">
                                     <code
-                                       code="2670"
-                                       displayName="Codeine"
+                                       code="1191"
+                                       displayName="Aspirin"
                                        codeSystem="2.16.840.1.113883.6.88"
                                        codeSystemName="RxNorm">
                                        <originalText>
                                           <reference
-                                             value="#product2"/>
+                                             value="#product3"/>
                                        </originalText>
                                     </code>
                                  </playingEntity>
@@ -806,24 +806,24 @@ Allergies, Adverse Reactions, Alerts
                                     root="2.16.840.1.113883.10.20.22.4.9"/>
                                  <!-- Reaction observation template -->
                                  <id
-                                    root="4adc1020-5a15-31a5-9fe1-0800200c9a64"/>
+                                    root="4adc1020-5a28-31b8-9fe1-0800200c9a64"/>
                                  <code
                                     nullFlavor="NA"/>
                                  <text>
                                     <reference
-                                       value="#reaction2"/>
+                                       value="#reaction3"/>
                                  </text>
                                  <statusCode
                                     code="completed"/>
                                  <effectiveTime>
                                     <low
-                                       value="20060501"/>
+                                       value="20080501"/>
                                  </effectiveTime>
                                  <value
                                     xsi:type="CD"
-                                    code="267036007"
+                                    code="247472004"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Shortness of Breath"/>
+                                    displayName="Hives"/>
                               </observation>
                            </entryRelationship>
                            <entryRelationship
@@ -842,16 +842,16 @@ Allergies, Adverse Reactions, Alerts
                                     codeSystemName="ActCode"/>
                                  <text>
                                     <reference
-                                       value="#severity2"/>
+                                       value="#severity3"/>
                                  </text>
                                  <statusCode
                                     code="completed"/>
                                  <value
                                     xsi:type="CD"
-                                    code="6736007"
-                                    displayName="Moderate"
+                                    code="371923003"
+                                    displayName="Mild to moderate"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED-CT"/>
+                                    codeSystemName="SNOMED CT"/>
                               </observation>
                            </entryRelationship>
                         </observation>
@@ -931,7 +931,7 @@ ENCOUNTERS
                            <code
                               code="59058001"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED-CT"
+                              codeSystemName="SNOMED CT"
                               displayName="General Physician"/>
                         </assignedEntity>
                      </performer>
@@ -976,7 +976,7 @@ ENCOUNTERS
                               code="404684003"
                               displayName="Finding"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED-CT"/>
+                              codeSystemName="SNOMED CT"/>
                            <statusCode
                               code="completed"/>
                            <effectiveTime>
@@ -1105,7 +1105,7 @@ FAMILY HISTORY
                <!-- Family History Observation template -->
                <id root="d42ebf70-5c89-11db-b0de-0800200c9a66"/>
                <code code="55561003" displayName="Active" 
-                  codeSystemName="SNOMED-CT" 
+                  codeSystemName="SNOMED CT" 
                   codeSystem="2.16.840.1.113883.6.96"/>
                <statusCode code="completed"/>
                <effectiveTime value="1967"/>
@@ -1143,7 +1143,7 @@ FAMILY HISTORY
     <!--  ********  Family history observation template   ******** -->
                <id root="5bfe3ec0-5c8b-11db-b0de-0800200c9a66"/>
                <code code="7087005" displayName="Intermittent" 
-                  codeSystemName="SNOMED-CT" 
+                  codeSystemName="SNOMED CT" 
                   codeSystem="2.16.840.1.113883.6.96"/>
                <statusCode code="completed"/>
                <effectiveTime value="1950"/>
@@ -1364,6 +1364,10 @@ IMMUNIZATIONS
          </component>
          
         
+		<!--  negative testing - 
+		copied section from 'CCDA_CCD_b2_Ambulatory
+		since original file only had one medication 
+		and we needed another unique one - adjusted as need to be error free -db -->
          <!--
 ********************************************************
 MEDICATIONS
@@ -1397,10 +1401,10 @@ MEDICATIONS
                         <tr ID="MED_1">
                            <td><content
                                  ID="Med1">Albuterol 0.09 MG/ACTUAT inhalant powder</content></td>
-                           <td>0.09 MG/ACTUAT inhalant powder, 2 puffs once</td>
-                           <td>20120807</td>
+                           <td>0.09 MG/ACTUAT inhalant powder, 2 puffs QID PRN wheezing</td>
+                           <td>20120801</td>
                            <td>Active</td>
-                           <td>Pneumonia (233604007 SNOMED-CT)</td>
+                           <td>Pneumonia (233604007 SNOMED CT)</td>
                            <td><content ID="FillIns">Generic Substitition Allowed</content></td>
                         </tr>
                      </tbody>
@@ -1415,25 +1419,25 @@ MEDICATIONS
                         root="2.16.840.1.113883.10.20.22.4.16"/>
                      <!-- ** MEDICATION ACTIVITY -->
                      <id
-                        root="cdbd33f0-5a16-31a6-9fe1-0800200c9a66"/>
+                        root="cdbd33f0-5a30-31c0-9fe1-0800200c9a66"/>
                      <text>
                         <reference
-                           value="#MED_1"/>0.09 MG/ACTUAT inhalant powder, 2 puffs </text>
+                           value="#MED_1"/>0.09 MG/ACTUAT inhalant powder, 2 puffs QID PRN wheezing </text>
                      <statusCode
                         code="completed"/>
                      <effectiveTime
                         xsi:type="IVL_TS">
                         <low
-                           value="20120808"/>
+                           value="20120801"/>
                         <high
-                           value="20120813"/>
+                           value="20120806"/>
                      </effectiveTime>
                      <effectiveTime
                         xsi:type="PIVL_TS"
                         institutionSpecified="true"
                         operator="A">
                         <period
-                           value="12"
+                           value="6"
                            unit="h"/>
                      </effectiveTime>
                      <routeCode
@@ -1457,7 +1461,7 @@ MEDICATIONS
                            <templateId
                               root="2.16.840.1.113883.10.20.22.4.23"/>
                            <id
-                              root="2a620155-5a17-31a7-92b3-5d9815ff4ee8"/>
+                              root="2a620155-5a31-31c1-92b3-5d9815ff4ee8"/>
                            <manufacturedMaterial>
                               <code
                                  code="582498"
@@ -1473,20 +1477,20 @@ MEDICATIONS
                         </manufacturedProduct>
                      </consumable>
 					 <author>
-										<time value="20120806"/>
-										<assignedAuthor>
-											<id extension="111111" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Henry</given>
-													<family>Seven</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
+								<time value="20120801"/>
+								<assignedAuthor>
+									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+										displayName="Allopathic &amp; Osteopathic Physicians"/>
+									<telecom use="WP" value="tel:+1(555)-555-1002"/>
+									<assignedPerson>
+										<name>
+											<given>Henry</given>
+											<family>Seven</family>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
+							</author>
                      <entryRelationship
                         typeCode="RSON">
                         <observation
@@ -1495,18 +1499,18 @@ MEDICATIONS
                            <templateId
                               root="2.16.840.1.113883.10.20.22.4.19"/>
                            <id
-                              root="db734647-5a18-31a8-a864-7e3cda82e703"
+                              root="db734647-5a32-31c2-a864-7e3cda82e703"
                               extension="45665"/>
                            <code
                               code="404684003"
                               displayName="Finding"
                               codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED-CT"/>
+                              codeSystemName="SNOMED CT"/>
                            <statusCode
                               code="completed"/>
                            <effectiveTime>
-                              <low nullFlavor="UNK"/>
-                              <high value="20120813"/>
+                              <low
+                                 value="20070103"/>
                            </effectiveTime>
                            <value
                               xsi:type="CD"
@@ -1529,9 +1533,9 @@ MEDICATIONS
                            <effectiveTime
                               xsi:type="IVL_TS">
                               <low
-                                 value="20120806"/>
+                                 value="20120801"/>
                               <high
-                                 value="20120813"/>
+                                 nullFlavor="UNK"/>
                            </effectiveTime>
                            <repeatNumber
                               value="1"/>
@@ -1543,14 +1547,14 @@ MEDICATIONS
                                  <templateId
                                     root="2.16.840.1.113883.10.20.22.4.23"/>
                                  <id
-                                    root="2a620155-5a19-31a9-92b3-5d9815ff4ee8"/>
+                                    root="2a620155-5a33-31c3-92b3-5d9815ff4ee8"/>
                                  <manufacturedMaterial>
                                     <code
                                        code="582498"
                                        codeSystem="2.16.840.1.113883.6.88"
                                        displayName="Albuterol 0.09 MG/ACTUAT inhalant powder">
                                        <originalText><reference
-                                             value="#Med1"/></originalText>
+                                             value="#MED_1"/></originalText>
                                     </code>
                                  </manufacturedMaterial>
                                  <manufacturerOrganization>
@@ -1564,10 +1568,10 @@ MEDICATIONS
                                     extension="2981823"
                                     root="2.16.840.1.113883.19.5.9999.456"/>
                                  <addr>
-                                    <streetAddressLine>1002 Healthcare Dr</streetAddressLine>
+                                    <streetAddressLine>1001 Village Avenue</streetAddressLine>
                                     <city>Portland</city>
                                     <state>OR</state>
-                                    <postalCode>97266</postalCode>
+                                    <postalCode>99123</postalCode>
                                     <country>US</country>
                                  </addr>
                               </assignedEntity>
@@ -1577,17 +1581,17 @@ MEDICATIONS
                                  nullFlavor="UNK"/>
                               <assignedAuthor>
                                  <id
-                                    root="2a620155-5a20-31b0-92b3-5d9815fe4de8"/>
+                                    root="2a620155-5a34-31c4-92b3-5d9815fe4de8"/>
                                  <addr
                                     nullFlavor="UNK"/>
                                  <telecom
                                     nullFlavor="UNK"/>
-                                 <assignedPerson xmlns:sdtc="urn:hl7-org:sdtc">								 
+                                 <assignedPerson>
                                     <name>
                                        <prefix>Dr.</prefix>
                                        <given>Henry</given>
                                        <family>Seven</family>
-                                    </name>									
+                                    </name>
                                  </assignedPerson>
                               </assignedAuthor>
                            </author>
@@ -1622,20 +1626,22 @@ MEDICATIONS
                            <!-- ** Medication Dispense Template ** -->
                            <id
                               root="1.2.3.4.56789.1"
-                              extension="cb734647-5a21-31b1-a864-7e3cda82e704"/>
+                              extension="cb734647-5a35-31c5-a864-7e3cda82e704"/>
                            <statusCode
                               code="completed"/>
                            <effectiveTime
-                              value="20120807"/>
+                              value="20120801"/>
                            <repeatNumber
                               value="1"/>
+                           <quantity
+                              value="75"/>
                            <product>
                               <manufacturedProduct
                                  classCode="MANU">
                                  <templateId
                                     root="2.16.840.1.113883.10.20.22.4.23"/>
                                  <id
-                                    root="2a620155-5a22-31b2-92b3-5d9815ff4ee8"/>
+                                    root="2a620155-5a36-31c6-92b3-5d9815ff4ee8"/>
                                  <manufacturedMaterial>
                                     <code
                                        code="582498"
@@ -1658,10 +1664,10 @@ MEDICATIONS
                                     root="2.16.840.1.113883.19.5.9999.456"
                                     extension="2981823"/>
                                  <addr>
-                                    <streetAddressLine>1002 Healthcare Dr</streetAddressLine>
+                                    <streetAddressLine>1001 Village Avenue</streetAddressLine>
                                     <city>Portland</city>
                                     <state>OR</state>
-                                    <postalCode>97266</postalCode>
+                                    <postalCode>99123</postalCode>
                                     <country>US</country>
                                  </addr>
                                  <telecom
@@ -1676,7 +1682,7 @@ MEDICATIONS
                                  <representedOrganization>
                                     <id
                                        root="2.16.840.1.113883.19.5.9999.1393"/>
-                                    <name>Community Health and Hospitals</name>
+                                    <name>Get Well Clinic</name>
                                     <telecom
                                        nullFlavor="UNK"/>
                                     <addr
@@ -1688,9 +1694,10 @@ MEDICATIONS
                      </entryRelationship>
                      <precondition
                         typeCode="PRCN">
+						<!-- moved templateID inside criterion -db -->
                         <criterion>
-							<templateId 
-								root="2.16.840.1.113883.10.20.22.4.25"/>
+							<templateId
+							root="2.16.840.1.113883.10.20.22.4.25"/>
                            <code
                               code="ASSERTION"
                               codeSystem="2.16.840.1.113883.5.4"/>
@@ -1868,9 +1875,9 @@ HOSPITAL DISCHARGE MEDICATIONS
                         <tr>
                            <td><content ID="DM">120 ACTUAT Fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler</content></td>
                            <td><content ID="DM1">0.11 MG/ACTUAT Metered Dose Once Daily</content></td>
-                           <td>20120813</td>
+                           <td>20120806</td>
                            <td>Active</td>
-                           <td>Bronchitis (32398004 SNOMED-CT)</td>
+                           <td>Bronchitis (32398004 SNOMED CT)</td>
                            <td><content ID="FillIns_DM">Generic Substitition Allowed</content></td>
                         </tr>
                      </tbody>
@@ -1894,8 +1901,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                      <statusCode
                         code="active"/>
                      <effectiveTime>
-                        <low value="20120813"/>
-                        <high value="20120813"/>
+                        <low value="20120806"/>
                      </effectiveTime>
                      <entryRelationship
                         typeCode="SUBJ">
@@ -1912,11 +1918,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                                  value="#DM1"/>0.11 MG/ACTUAT Metered Dose Once Daily </text>
                            <statusCode
                               code="completed"/>
-                           <effectiveTime
-                              xsi:type="IVL_TS">
-                              <low value="20120813"/>
-                              <high value="20120813"/>
-                           </effectiveTime>
+                           <effectiveTime value="20120806"/>
                            <effectiveTime
                               xsi:type="PIVL_TS"
                               institutionSpecified="true"
@@ -2028,7 +2030,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                                     code="404684003"
                                     displayName="Finding"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED-CT"/>
+                                    codeSystemName="SNOMED CT"/>
                                  <statusCode
                                     code="completed"/>
                                  <effectiveTime>
@@ -2056,7 +2058,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                                  <effectiveTime
                                     xsi:type="IVL_TS">
                                     <low
-                                       value="20120813"/>
+                                       value="20120806"/>
                                     <high
                                        nullFlavor="UNK"/>
                                  </effectiveTime>
@@ -2158,7 +2160,7 @@ HOSPITAL DISCHARGE MEDICATIONS
                                  <statusCode
                                     code="completed"/>
                                  <effectiveTime
-                                    value="20120813"/>
+                                    value="20120806"/>
                                  <repeatNumber
                                     value="1"/>
                                  <quantity
@@ -2289,7 +2291,7 @@ PROBLEM LIST
                   <list
                      listType="ordered">
                      <item><content
-                           ID="problem1">Pneumonia : Status - Active</content></item>
+                           ID="problem2">Asthma : Status - Active</content></item>
                   </list>
                </text>
                <entry
@@ -2301,7 +2303,7 @@ PROBLEM LIST
                      <templateId
                         root="2.16.840.1.113883.10.20.22.4.3"/>
                      <id
-                        root="ec8a6ff8-5a23-31b3-82c3-e98e58b45de7"/>
+                        root="ec8a6ff8-5a37-31c7-82c3-e98e58b45de7"/>
                      <code
                         code="CONC"
                         codeSystem="2.16.840.1.113883.5.6"
@@ -2310,7 +2312,7 @@ PROBLEM LIST
                         code="active"/>
                      <effectiveTime>
                         <low
-                           value="20120806"/>
+                           value="20070103"/>
                      </effectiveTime>
                      <entryRelationship
                         typeCode="SUBJ">
@@ -2321,41 +2323,41 @@ PROBLEM LIST
                            <templateId
                               root="2.16.840.1.113883.10.20.22.4.4"/>
                            <id
-                              root="ab1791b0-5a24-31b4-b0de-0800200c9a66"/>
+                              root="ab1791b0-5a38-31c8-b0de-0800200c9a66"/>
                            <code
                               code="409586006"
                               codeSystem="2.16.840.1.113883.6.96"
                               displayName="Complaint"/>
                            <text>
                               <reference
-                                 value="#problem1"/>
+                                 value="#problem2"/>
                            </text>
                            <statusCode
                               code="completed"/>
                            <effectiveTime>
                               <low
-                                 value="20120806"/>
+                                 value="20070103"/>
                            </effectiveTime>
                            <value
                               xsi:type="CD"
-                              code="233604007"
+                              code="195967001"
                               codeSystem="2.16.840.1.113883.6.96"
-                              displayName="Pneumonia"/>
+                              displayName="Asthma"/>
 							  <author>
-										<time value="20120806"/>
-										<assignedAuthor>
-											<id extension="111111" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Henry</given>
-													<family>Seven</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
+								<time value="20120801"/>
+								<assignedAuthor>
+									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+										displayName="Allopathic &amp; Osteopathic Physicians"/>
+									<telecom use="WP" value="tel:+1(555)-555-1002"/>
+									<assignedPerson>
+										<name>
+											<given>Henry</given>
+											<family>Seven</family>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
+							</author>
                            <entryRelationship
                               typeCode="SUBJ"
                               inversionInd="true">
@@ -2398,8 +2400,27 @@ PROBLEM LIST
                                     xsi:type="CD"
                                     code="161901003"
                                     codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED-CT"
+                                    codeSystemName="SNOMED CT"
                                     displayName="Chronically Ill"/>
+                              </observation>
+                           </entryRelationship>
+                           <entryRelationship typeCode="REFR">
+                              <observation classCode="OBS" moodCode="EVN">
+                                 <!-- Status observation template -->
+                                 <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                                 <code xsi:type="CE" 
+                                    code="33999-4" 
+                                    codeSystem="2.16.840.1.113883.6.1"
+                                    codeSystemName="LOINC" 
+                                    displayName="Status"/>
+                                 <text><reference
+                                    value="#problem2"/></text>
+                                 <statusCode code="completed"/>
+                                 <value xsi:type="CD" 
+                                    code="55561003"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    codeSystemName="SNOMED CT" 
+                                    displayName="Active"/>
                               </observation>
                            </entryRelationship>
                         </observation>
@@ -2479,7 +2500,7 @@ PROCEDURES
                         <targetSiteCode
                            code="82094008"
                            codeSystem="2.16.840.1.113883.6.96"
-                           codeSystemName="SNOMED-CT"
+                           codeSystemName="SNOMED CT"
                            displayName="Lower Respiratory Tract Structure"/>
                         <performer>
                            <assignedEntity>
@@ -2740,7 +2761,7 @@ RESULTS
                         code="43789009"
                         displayName="CBC WO DIFFERENTIAL"
                         codeSystem="2.16.840.1.113883.6.96"
-                        codeSystemName="SNOMED-CT"/>
+                        codeSystemName="SNOMED CT"/>
                      <statusCode
                         code="completed"/>
                      <component>
