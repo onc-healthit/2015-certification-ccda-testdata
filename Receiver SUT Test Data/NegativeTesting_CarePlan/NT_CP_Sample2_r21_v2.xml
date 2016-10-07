@@ -19,7 +19,7 @@
 	<!-- ** CDA Header ** -->
 	<realmCode code="US"/>
 	<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
-	<templateId root="2.16.840.1.113883.10.20.22.1.15"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.15" extension="2015-08-01"/>
 	<id root="db734647-fc99-424c-a864-7e3cda82e703"/>
 	<code code="52521-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Overall Plan of Care/Advance Care Directives"/>
 	<title>Good Health Hospital Care Plan</title>
@@ -70,7 +70,7 @@
 				<sdtc:raceCode code="2076-8" displayName="Hawaiian or Other Pacific Islander" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
 				<ethnicGroupCode code="2186-5" displayName="Not Hispanic or Latino" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC"/>
 				<guardian>
-					<code code="POWATT" displayName="Power of Attorney" codeSystem="2.16.840.1.113883.1.11.19830" codeSystemName="ResponsibleParty"/>
+					<code code="POWATT" displayName="Power of Attorney" codeSystem="2.16.840.1.113883.5.111" codeSystemName="ResponsibleParty"/>
 					<addr use="HP">
 						<streetAddressLine>2222 Home Street</streetAddressLine>
 						<city>Beaverton</city>
@@ -246,7 +246,7 @@
 					<country>US</country>
 				</addr>
 				<!-- Receiving Care Setting Type Description: displayName.  Receiving Care Setting Type Code: code -->
-				<standardIndustryClassCode displayName="Long Term Care Hospital" code="282E00000X" codeSystem="2.16.840.1.114222.4.11.1066" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
+				<standardIndustryClassCode displayName="Long Term Care Hospital" code="282E00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
 			</receivedOrganization>
 		</intendedRecipient>
 	</informationRecipient>
@@ -312,27 +312,7 @@
 			</assignedPerson>
 		</assignedEntity>
 	</authenticator>
-	<!-- This participant represents the person who reviewed the Care Plan. If the date in the time element is in the past, then this review has already taken place. 
-         If the date in the time element is in the future, then this is the date of the next scheduled review. -->
-	<!-- This example shows a Care Plan Review that has already taken place -->
-	<participant typeCode="VRF">
-		<functionCode code="425268008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Review of Care Plan"/>
-		<time value="20130801"/>
-		<associatedEntity classCode="ASSIGNED">
-			<id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18c"/>
-		</associatedEntity>
-	</participant>
-	<!-- This participant represents the person who reviewed the Care Plan.   If the date in the time element is in the past, then this review has already taken place. 
-  If the date in the time element is in the future,  then this is the date of the next scheduled review. -->
-	<!-- This example shows a Scheduled Care Plan Review that is in the future -->
-	<participant typeCode="VRF">
-		<functionCode code="425268008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Review of Care Plan"/>
-		<time value="20131001"/>
-		<associatedEntity classCode="ASSIGNED">
-			<id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18c"/>
-			<code code="SELF" displayName="self" codeSystem="2.16.840.1.113883.5.111"/>
-		</associatedEntity>
-	</participant>
+	
 	<!-- This participant identifies individuals who support the patient such as a relative or caregiver -->
 	<participant typeCode="IND">
 		<!-- Emergency Contact  -->
@@ -453,7 +433,7 @@ Health Concerns section
 			<component>
 				<section>
 					<!-- Health Concerns Section -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.58"/>
+					<templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01"/>
 					<!-- Bad Code -->
 					<code code="ddsfddssadfdsas" displayName="Health Concerns Document" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>Health Concerns Section</title>
@@ -524,7 +504,7 @@ Health Concerns section
 					<entry>
 						<!-- Health Concern Act -->
 						<act classCode="ACT" moodCode="EVN">
-							<templateId root="2.16.840.1.113883.10.20.22.4.132"/>
+							<templateId root="2.16.840.1.113883.10.20.22.4.132" extension="2015-08-01"/>
 							<id root="4eab0e52-dd7d-4285-99eb-72d32ddb195c"/>
 							<code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern"/>
 							<!-- This Health Concern has a statusCode of active because it is an active concern -->
