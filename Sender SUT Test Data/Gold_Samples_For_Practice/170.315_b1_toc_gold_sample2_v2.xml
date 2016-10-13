@@ -1017,6 +1017,11 @@
 									<td>Current every day</td>
 									<td>July 22, 2015</td>
 								</tr>
+								<tr>
+									<td ID="BirthSexInfo">Birth Sex</td>
+									<td>Male</td>
+									<td>July 22, 2015</td>
+								</tr>
 							</tbody>
 						</table>
 					</text>					
@@ -1038,6 +1043,21 @@
 						</observation>
 					</entry>					
 					<!-- removed Social history observation (V3) entry for "Alcoholic drinks per day" -db -->
+					<!-- Add Birth Sex entry -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+						  <templateId root="2.16.840.1.113883.10.20.22.4.200" extension="2016-06-01"/>
+						  <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sex Assigned At Birth"/>
+						  <text>
+							<reference value="#BirthSexInfo"/>
+						  </text>
+						  <statusCode code="completed"/>
+						  <effectiveTime value="20150722"/>
+						  <value code="M" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Male"/>
+						</observation>
+					</entry>
+					
+					
 				</section>
 			</component>	
 

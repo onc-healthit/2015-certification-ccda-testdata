@@ -53,6 +53,10 @@
 			<patient>
 				<name use="L">
 					<given>Caroline</given>
+					<given>Richard</given>
+					<family>Helberg</family>
+				</name>
+				<name use="L">
 					<given qualifier="BR">Carrie</given>
 					<given>Richard</given>
 					<family>Helberg</family>
@@ -159,7 +163,7 @@
 			<code code="SPS" displayName="SPOUSE" codeSystem="2.16.840.1.113883.1.11.19563"
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<relatedPerson>
-				<name>
+				<name use="L">
 					<given>Gabriel</given>
 					<family>Helberg</family>
 				</name>
@@ -615,7 +619,7 @@
 							<tbody>
 								<tr>
 									<td>Vantin</td>
-									<td>BID</td>
+									<td>Two times daily</td>
 									<td>June 22, 2015</td>
 								</tr>
 								<tr>
@@ -630,17 +634,17 @@
 								</tr>
 								<tr>
 									<td>Clindamycin 300mg</td>
-									<td>TID</td>
+									<td>Three times daily</td>
 									<td>June 23, 2015</td>
 								</tr>
 								<tr>
 									<td>Levothyroxine Sodium</td>
-									<td>QD</td>
+									<td>Daily</td>
 									<td>June 23, 2015</td>
 								</tr>
 								<tr>
 									<td>FenoFibric Acid 35mg</td>
-									<td>QHS</td>
+									<td>At the hour of sleep</td>
 									<td>June 24, 2015</td>
 								</tr>
 							</tbody>
@@ -669,7 +673,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-439e-92b3-5d9816ff4ee8"/>
 									<manufacturedMaterial>
-										<code code="47835" displayName="Vantin (cefpodoxime 100mg)" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+										<code code="214077" displayName="Vantin (cefpodoxime 100mg)" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
@@ -735,7 +739,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-439e-92b3-5d9825ff4ee8"/>
 									<manufacturedMaterial>
-										<code code="576586" codeSystem="2.16.840.1.113883.6.88" displayName="Darbepoetin Alfa 0.5 MG/ML"/>
+										<code code="731184" codeSystem="2.16.840.1.113883.6.88" displayName="Darbepoetin Alfa 0.5 MG/ML"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
@@ -764,7 +768,7 @@
 								<templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
 								<templateId root="2.16.840.1.113883.10.20.22.4.23" />
 								<manufacturedMaterial>
-									<code code="748747" codeSystem="2.16.840.1.113883.6.88" displayName="Clindamycin 300mg" codeSystemName="RxNorm"/>
+									<code code="284215" codeSystem="2.16.840.1.113883.6.88" displayName="Clindamycin 300mg" codeSystemName="RxNorm"/>
 								</manufacturedMaterial>							  
 							</manufacturedProduct>
 							</consumable>
@@ -794,7 +798,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-439e-92b3-5d9827ff4ff9"/>
 									<manufacturedMaterial>
-										<code code="40144" displayName="Levothyroxine Sodium" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+										<code code="892279" displayName="Levothyroxine Sodium" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
@@ -825,7 +829,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-439e-92b3-5d9825ff4fg1"/>
 									<manufacturedMaterial>
-										<code code="860887" displayName="FenoFibric Acid 35 mg" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+										<code code="860886" displayName="FenoFibric Acid 35 mg" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
@@ -1316,7 +1320,7 @@
 							<statusCode code="completed"/>
 							<effectiveTime value="20150622"/>
 							<methodCode nullFlavor="UNK"/>
-							<targetSiteCode code="168731009" displayName="Lower Respiratory Tract Structure" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+							<targetSiteCode code="82094008" displayName="Lower Respiratory Tract Structure" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 							<!-- removed specimen as not required by test data -db -->
 							<performer>
 								<assignedEntity>
@@ -1471,7 +1475,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.54"/>
 									<manufacturedMaterial>
-										<code code="106" codeSystem="2.16.840.1.113883.6.59" displayName="Tetanus and diphtheria toxoids" codeSystemName="CVX">
+										<code code="106" codeSystem="2.16.840.1.113883.12.292" displayName="Tetanus and diphtheria toxoids" codeSystemName="CVX">
 											<!-- i.	This code MAY contain zero or more [0..*] translation, which MAY be selected from ValueSet Vaccine Clinical Drug urn:oid:2.16.840.1.113762.1.4.1010.8 DYNAMIC (CONF:1098-31543).
 													ii.	This code MAY contain zero or more [0..*] translation, which MAY be selected from ValueSet Specific Vaccine Clinical Drug urn:oid:2.16.840.1.113762.1.4.1010.10 DYNAMIC (CONF:1098-31881).
 
@@ -1647,6 +1651,11 @@
 									<td>Current every day</td>
 									<td>June 22, 2015</td>
 								</tr>
+								<tr>
+									<td ID="BirthSexInfo">Birth Sex</td>
+									<td>Female</td>
+									<td>June 22, 2015</td>
+								</tr>
 							</tbody>
 						</table>
 					</text>
@@ -1693,6 +1702,21 @@
 						</observation>
 					</entry>					
 					<!-- removed Social history observation (V3) entry for "Alcoholic drinks per day" -db -->
+					
+					<!-- Add Birth Sex entry -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+						  <templateId root="2.16.840.1.113883.10.20.22.4.200" extension="2016-06-01"/>
+						  <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sex Assigned At Birth"/>
+						  <text>
+							<reference value="#BirthSexInfo"/>
+						  </text>
+						  <statusCode code="completed"/>
+						  <effectiveTime value="20150622"/>
+						  <value code="F" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Female"/>
+						</observation>
+					</entry>
+					
 				</section>
 			</component>		
 
@@ -2288,7 +2312,99 @@
 								</tr>
 							</tbody>
 						</table>
-					</text>					
+					</text>				
+
+<entry>
+						<!-- Goal Observation -->
+						<observation classCode="OBS" moodCode="GOL">
+							<!-- Goal Observation -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.121"/>
+							<id root="3700b3b0-fbed-11e2-b778-0800200c9a66"/>
+							<!-- TODO (min - not required for test data): find a more suitable LOINC code for generic fever or for Visual Inspection -db -->
+							<code code="58144-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Resident's overall goal established during assessment process"/>
+							<statusCode code="active"/>
+							<effectiveTime value="20150623"/>
+							<!-- this may not be the recommended way to record a visual inspection -db -->
+							<value xsi:type="ST">Need to gain more energy to do regular activities. (Visual Inspection)</value>
+							<author>
+								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+								<time value="20150623"/>
+								<assignedAuthor>
+									<id root="d839038b-7171-4165-a760-467925b43857"/>
+									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
+									<assignedPerson>
+										<name>
+											<given>Mary</given>
+											<family>McDonald</family>
+											<suffix>RN</suffix>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
+							</author>
+							<!-- Patient Author -->
+							<author typeCode="AUT">
+								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+								<time/>
+								<assignedAuthor>
+									<!-- This id can point back to the record target already described in the CDA header (or someone else can be described here) -->
+									<!-- This particular example points back to the record target -->
+									<id extension="996-756-495" root="2.16.840.1.113883.19.5"/>
+								</assignedAuthor>
+							</author>
+						</observation>
+					</entry>					
+					<entry>
+						<!-- Goal Observation -->
+						<observation classCode="OBS" moodCode="GOL">
+							<!-- Goal Observation -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.121"/>
+							<id root="3700b3b0-fbed-11e2-b788-0800200c9a66"/>
+							<code code="8310-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Negotiated Goal for Body Temperature"/>
+							<statusCode code="active"/>
+							<effectiveTime value="20150623"/>
+							<value xsi:type="IVL_PQ">
+								<low value="98" unit="[degF]"/>
+								<high value="99" unit="[degF]"/>
+							</value>
+							<author>
+								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+								<time value="20150623"/>
+								<assignedAuthor>
+									<id root="d839038b-7172-4165-a760-467925b43857"/>
+									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
+									<assignedPerson>
+										<name>
+											<given>Mary</given>
+											<family>McDonald</family>
+											<suffix>RN</suffix>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
+							</author>
+							<!-- Patient Author -->
+							<author typeCode="AUT">
+								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+								<time/>
+								<assignedAuthor>
+									<!-- This id can point back to the record target already described in the CDA header (or someone else can be described here) -->
+									<!-- This particular example points back to the record target -->
+									<id extension="996-756-495" root="2.16.840.1.113883.19.5"/>
+								</assignedAuthor>
+							</author>
+							<!-- added entryReference to point back to the fever problem from the problem list
+								 search the id root to find the problem -db -->						
+							<entryRelationship typeCode="REFR">
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+									<!-- This ID equals the problem -db -->
+									<id root="ab1791b0-5c71-11db-6662-6666666c6a66"/>
+									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
+									<code nullFlavor="NP"/>
+									<statusCode code="completed"/>
+								</act>
+							</entryRelationship>														
+						</observation>
+					</entry>					
 				</section>
 			</component>
 			
@@ -2345,19 +2461,103 @@
 									<td>June 22, 2015</td>
 								</tr>
 								<tr>
-									<td>Watch Weight</td>
-									<td>Resolved</td>
-									<td>June 1, 2007</td>
-								</tr>
-								<!-- added for inp -->
-								<tr>
 									<td>Anemia problem concern</td>
 									<td>Active</td>
 									<td>June 22, 2015</td>
 								</tr>
 							</tbody>
 						</table>
+						<br/>						
+						<table border="1" width="100%">
+							<thead>
+								<tr>
+									<th>Related observation</th>
+									<th>Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Vital Sign Weight Observation</td>
+									<td>June 22, 2015</td>
+								</tr>
+							</tbody>
+						</table>
+						<br/>
 					</text>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.5" extension="2014-06-09"/>
+							<templateId root="2.16.840.1.113883.10.20.22.4.5"/>
+							<id root="1eeb1e51-ee1d-1234-11xy-11z11ddb111z"/>
+							<code code="11323-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health status"/>
+							<statusCode code="completed"/>
+							<value xsi:type="CD" code="161901003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Chronically ill"/>
+						</observation>
+					</entry>
+					<entry>
+						<!-- Health Concerns Act (V2) (V1 was added as a NEW template in R2.0, V2 was updated in R2.1) -db -->
+						<act classCode="ACT" moodCode="EVN">					
+							<templateId root="2.16.840.1.113883.10.20.22.4.132" extension="2015-08-01"/>													
+							<id root="4eab0e52-dd7d-4285-99eb-72d32ddb195c"/>
+							<code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern"/>
+							<statusCode code="completed"/>
+							<!-- Concerns -db -->					
+							<entryRelationship typeCode="REFR">
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+									<!-- This ID equals the problem, HyperTension in this case -db -->
+									<id root="ab1791b0-5c71-11db-b0de-0800200c9a66"/>
+									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
+									<code nullFlavor="NP"/>
+									<statusCode code="completed"/>
+								</act>
+							</entryRelationship>
+							<entryRelationship typeCode="REFR">
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+									<!-- This ID equals the problem, HypoThyroidism in this case -db -->
+									<id root="ab1791b0-5c71-11db-b0de-0800200c9a68"/>						
+									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
+									<code nullFlavor="NP"/>
+									<statusCode code="completed"/>
+								</act>
+							</entryRelationship>
+							<!-- added this entryRelationship only for inp -->
+							<entryRelationship typeCode="REFR">
+								<act classCode="ACT" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+									<!-- This ID equals the problem, Anemia in this case -db -->
+									<id root="ab1791b0-5c71-11db-6661-6666666c6a66"/>						
+									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
+									<code nullFlavor="NP"/>
+									<statusCode code="completed"/>
+								</act>
+							</entryRelationship>							
+							  <!-- Problems -db -->
+							  <!-- in this case the problem outlined is no longer a problem hence inversionInd="true" -->
+							  <entryRelationship typeCode="REFR" inversionInd="true">
+								<!-- Problem Observation (V2) -->
+								<observation classCode="OBS" moodCode="EVN">
+								  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2014-06-09" />
+								  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+								  <id root="8dfacd73-1682-4cc4-9351-e54ccea83612" />
+								  <code code="29308-4" 
+										codeSystem="2.16.840.1.113883.6.1" 
+										codeSystemName="LOINC" 
+										displayName="Diagnosis"/>
+								  <statusCode code="completed" />
+								  <effectiveTime>
+									<!-- Date of diagnosis -->
+									<low value="20150622" />
+								  </effectiveTime>
+								  <!-- cannot currently verify that this code exists in the Problem valueset 2.16.840.1.113883.3.88.12.3221.7.4 -db -->
+								  <value xsi:type="CD" code="238131007" 
+										codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" 
+										displayName="Overweight (finding)" />
+								</observation>
+							  </entryRelationship>
+						</act>
+					</entry>
 				</section>
 			</component>
 			
