@@ -2311,7 +2311,7 @@
 						  </text>
 						  <statusCode code="completed"/>
 						  <effectiveTime value="20150622"/>
-						  <value code="F" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Female"/>
+						  <value code="F" codeSystem="2.16.840.1.113883.18.2" xsi:type="CD" displayName="Female"/>
 						</observation>
 					</entry>
 					
@@ -3007,7 +3007,7 @@
 							<value xsi:type="ST">Need to gain more energy to do regular activities. (Visual Inspection)</value>
 							<author>
 								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
-								<time value="20130730"/>
+								<time value="20150623"/>
 								<assignedAuthor>
 									<id root="d839038b-7171-4165-a760-467925b43857"/>
 									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
@@ -3047,7 +3047,7 @@
 							</value>
 							<author>
 								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
-								<time value="20130730"/>
+								<time value="20150623"/>
 								<assignedAuthor>
 									<id root="d839038b-7172-4165-a760-467925b43857"/>
 									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>

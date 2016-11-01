@@ -27,50 +27,50 @@
 	<!-- US Realm Header ID-->
 	<templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01"/>
 	<templateId root="2.16.840.1.113883.10.20.22.1.1"/>
-	<!-- Discharge Summary (V3) template ID and extension-->
-	<templateId root="2.16.840.1.113883.10.20.22.1.8" extension="2015-08-01"/>
-	<templateId root="2.16.840.1.113883.10.20.22.1.8"/>
+	<!-- Referral Note (V2) template ID -->
+	<templateId root="2.16.840.1.113883.10.20.22.1.14" extension="2015-08-01"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.14"/>
 	<!-- Globally unique identifier for the document  -->
-	<id extension="TT107" root="2.16.840.1.113883.19.5.99999.1"/>
-	<code code="18842-5" displayName="Discharge Summary" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+	<id extension="TT110" root="2.16.840.1.113883.19.5.99999.1"/>
+	<code code="57133-1" displayName="Referral Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 	<!-- Title of this document -->
-	<title>170.315_b1_toc_inp_ds_r21_sample1 test data</title>
+	<title>170.315_b1_toc_inp_rn_r21_sample1 test data</title>
 	<effectiveTime value="20150622"/>
 	<confidentialityCode code="N" displayName="normal" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
 	<languageCode code="en-US"/>
-	<setId extension="sTT107" root="2.16.840.1.113883.19.5.99999.19"/>
+	<setId extension="sTT110" root="2.16.840.1.113883.19.5.99999.19"/>
 	<!-- Version of this document -->
 	<versionNumber value="1"/>
 	<recordTarget>
 		<patientRole>
-			<id extension="118283339" root="2.16.840.1.113883.4.1"/>
+			<id extension="122323345" root="2.16.840.1.113883.4.1"/>
 			<!-- Example Social Security Number using the actual SSN OID. -->
 			<addr use="HP">
 				<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
-				<streetAddressLine>1007 Amber Dr</streetAddressLine>
+				<streetAddressLine>1010 Amber Dr</streetAddressLine>
 				<city>Beaverton</city>
 				<state>OR</state>
 				<postalCode>97266</postalCode>
 				<country>US</country>
 				<!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
 			</addr>
-			<telecom value="tel:+1(555)-225-1234" use="MC"/>
-			<telecom value="tel:+1(555)-226-1544" use="HP"/>
+			<telecom value="tel:+1(555)-333-1234" use="MC"/>
+			<telecom value="tel:+1(555)-334-1544" use="HP"/>
 			<!-- HP is "primary home" from HL7 AddressUse 2.16.840.1.113883.5.1119 -->
 			<patient>
 				<name use="L">
-					<given>Rabecca</given>
-					<given>Jones</given>
-					<family>Angeles</family>
+					<given>Michelle</given>
+					<given>Glen</given>
+					<family>Marshall</family>
 				</name>
-				<name>
-					<given qualifier="BR">Becky</given>
-					<given>Jones</given>
-					<family>Angeles</family>
+				<name use="L">
+					<given qualifier="BR">Micky</given>
+					<given>Glen</given>
+					<family>Marshall</family>
 				</name>
 				<administrativeGenderCode code="F" displayName="Female" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender"/>
 				<!-- Date of birth need only be precise to the day -->
-				<birthTime value="19700701"/>
+				<birthTime value="19700601"/>
 				<maritalStatusCode code="M" displayName="Married" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode"/>
 				<religiousAffiliationCode code="1013" displayName="Christian (non-Catholic, non-specific)" codeSystem="2.16.840.1.113883.5.1076" codeSystemName="HL7 Religious Affiliation"/>
 				<!-- CDC Race and Ethnicity code set contains the five minimum race and ethnicity 
@@ -171,8 +171,8 @@
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<relatedPerson>
 				<name>
-					<given>Richard</given>
-					<family>Angeles</family>
+					<given>James</given>
+					<family>Marshall</family>
 				</name>
 			</relatedPerson>
 		</relatedEntity>
@@ -263,19 +263,19 @@
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<addr use="HP">
 				<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
-				<streetAddressLine>1007 Amber Dr</streetAddressLine>
+				<streetAddressLine>1010 Amber Dr</streetAddressLine>
 				<city>Beaverton</city>
 				<state>OR</state>
 				<postalCode>97266</postalCode>
 				<country>US</country>
 				<!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
 			</addr>
-			<telecom value="tel:+1(555)-226-1544" use="HP"/>
+			<telecom value="tel:+1(555)-334-1544" use="HP"/>
 			<associatedPerson>
 				<name>
 					<prefix>Mr</prefix>
-					<given>Issac</given>
-					<family>Wilmer</family>
+					<given>Kerry</given>
+					<family>Grant</family>
 				</name>
 			</associatedPerson>
 		</associatedEntity>
@@ -288,19 +288,19 @@
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<addr use="HP">
 				<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
-				<streetAddressLine>1007 Amber Dr</streetAddressLine>
+				<streetAddressLine>1010 Amber Dr</streetAddressLine>
 				<city>Beaverton</city>
 				<state>OR</state>
 				<postalCode>97266</postalCode>
 				<country>US</country>
 				<!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
 			</addr>
-			<telecom value="tel:+1(555)-226-1544" use="HP"/>
+			<telecom value="tel:+1(555)-334-1544" use="HP"/>
 			<associatedPerson>
 				<name>
 					<prefix>Mr</prefix>
-					<given>Richard</given>
-					<family>Angeles</family>
+					<given>James</given>
+					<family>Marshall</family>
 				</name>
 			</associatedPerson>
 		</associatedEntity>
@@ -397,9 +397,7 @@
 			    <!-- represents length of time spent in hospital -db -->
 				<low value="201506221000-0500"/>
 				<high value="20150624"/>
-			</effectiveTime>
-			<dischargeDispositionCode code="01" codeSystem="2.16.840.1.113883.12.112"
-				displayName="Routine Discharge" codeSystemName="HL7 Discharge Disposition"/>			
+			</effectiveTime>			
 		</encompassingEncounter>
 	</componentOf>
 	<!-- ******************************************************** CDA Body ******************************************************** -->
@@ -526,7 +524,7 @@
 												<observation classCode="OBS" moodCode="EVN">
 													<!-- ** Severity Observation  (V2)** -->
 													<!-- When the Severity Observation is associated directly with an allergy it characterizes the allergy. 
-														When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
+								When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
 													<templateId root="2.16.840.1.113883.10.20.22.4.8" extension="2014-06-09"/>
 													<templateId root="2.16.840.1.113883.10.20.22.4.8"/>
 													<code code="SEV" displayName="Severity Observation" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
@@ -596,7 +594,7 @@
 												</code>
 											</playingEntity>
 										</participantRole>
-									</participant>									
+									</participant>								
 									<entryRelationship typeCode="MFST" inversionInd="true">
 										<observation classCode="OBS" moodCode="EVN">
 											<!-- ** Reaction Observation (V2) ** -->
@@ -615,7 +613,7 @@
 												<observation classCode="OBS" moodCode="EVN">
 													<!-- ** Severity Observation  (V2)** -->
 													<!-- When the Severity Observation is associated directly with an allergy it characterizes the allergy. 
-															When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
+														When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
 													<templateId root="2.16.840.1.113883.10.20.22.4.8" extension="2014-06-09"/>
 													<templateId root="2.16.840.1.113883.10.20.22.4.8"/>
 													<code code="SEV" displayName="Severity Observation" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
@@ -663,8 +661,8 @@
 									<td>June 22, 2015</td>
 								</tr>
 								<tr>
-									<td>Vantin 200mg</td>
-									<td>Two Times daily</td>
+									<td>Vantin</td>
+									<td>Two times daily</td>
 									<td>June 22, 2015</td>
 								</tr>
 								<tr>
@@ -688,18 +686,18 @@
 									<td>June 23, 2015</td>
 								</tr>
 								<tr>
-									<td>Levothyroxine Sodium 1mg</td>
+									<td>Levothyroxine Sodium</td>
 									<td>Daily</td>
 									<td>June 23, 2015</td>
 								</tr>
 								<tr>
-									<td>Prednisolone 50mg</td>
+									<td>Prednisolone 10mg</td>
 									<td>Daily</td>
 									<td>June 23, 2015</td>
 								</tr>
 								<tr>
 									<td>FenoFibric Acid 35mg</td>
-									<td>At the Hour of Sleep</td>
+									<td>At the hour of sleep</td>
 									<td>June 24, 2015</td>
 								</tr>
 								<tr>
@@ -713,7 +711,7 @@
 									<td>June 24, 2015</td>
 								</tr>
 								<tr>
-									<td>Ciprofloxacin 250mg</td>
+									<td>Ciprofloxacin 2mg/ml</td>
 									<td>Three times daily</td>
 									<td>June 25, 2015</td>
 								</tr>
@@ -777,7 +775,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-439e-92b3-5d9816ff4ee8"/>
 									<manufacturedMaterial>
-										<code code="214078" displayName="Vantin 200MG (cefpodoxime 200mg)" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+										<code code="214078" displayName="Vantin 200MG(cefpodoxime 200mg)" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
@@ -1315,7 +1313,7 @@
 									<!-- ** Problem observation  (V3)** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-5c71-11db-6626-6666666c6a66"/>
+									<id root="ab1791b0-5c71-11db-6166-6666666c6a66"/>
 									<code code="64572001" displayName="Condition" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">									
 										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
 										<!-- Condition seems like the best option:
@@ -1448,7 +1446,7 @@
 								<tr>
 									<td ID="Encounter1"> Anemia in Chronic Kidney Disease</td>
 									<td>Community Health and Hospitals</td>
-									<td>June 22, 2015 at 10:00am EST</td>
+									<td>June 22, 2015 at 10:00 am EST</td>
 								</tr>
 							</tbody>
 						</table>
@@ -2113,7 +2111,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.27"/>
 									<id root="f4e729e2-a97f-4a7e-8e23-c92f9b6b55cf"/>
-									<code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Body Weight"/>
+									<code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Body Weight - Measured"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="20150622"/>
 									<value xsi:type="PQ" value="88" unit="kg"/>
@@ -2317,7 +2315,7 @@
 						  </text>
 						  <statusCode code="completed"/>
 						  <effectiveTime value="20150622"/>
-						  <value code="F" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Female"/>
+						  <value code="F" codeSystem="2.16.840.1.113883.18.2" xsi:type="CD" displayName="Female"/>
 						</observation>
 					</entry>
 					
@@ -2484,7 +2482,7 @@
 									<!-- ** Result Observation (V3) ** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-									<id root="f1aa44dd-6f39-4f5c-b268-897c3834b563"/>
+									<id root="f1aa44dd-6f49-4f5c-b267-897c3834b563"/>
 									<code code="26515-7" displayName="PLT" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 									<text>
 										<reference value="#resultD"/>
@@ -2911,10 +2909,9 @@
 							<!--Consol Planned Observation2 SHALL contain exactly one [1..1] statusCode 
 							(CONF:1098-30453)/@code="active" Active (CodeSystem: 2.16.840.1.113883.5.14 ActStatus) (CONF:1098-32032) -->
 							<statusCode code="active" />
-							<effectiveTime value="20150629"/>
+							<effectiveTime value="20150622"/>
 						</observation>
 					</entry>
-					
 					<!-- (planned) Procedures -db -->
 					<entry>
 						<!-- Planned Procedure (V2) -->
@@ -3005,7 +3002,7 @@
 						<observation classCode="OBS" moodCode="GOL">
 							<!-- Goal Observation -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.121"/>
-							<id root="3700b3b0-fbed-11e2-b778-0800200c9a66"/>
+							<id root="3700b3b0-fbed-11e2-b768-0800200c9a66"/>
 							<!-- TODO (min - not required for test data): find a more suitable LOINC code for generic fever or for Visual Inspection -db -->
 							<code code="58144-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Resident's overall goal established during assessment process"/>
 							<statusCode code="active"/>
@@ -3016,7 +3013,7 @@
 								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
 								<time value="20130730"/>
 								<assignedAuthor>
-									<id root="d839038b-7174-4165-a760-467925b43857"/>
+									<id root="d839038b-7171-4165-a760-467925b43857"/>
 									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
 									<assignedPerson>
 										<name>
@@ -3044,7 +3041,7 @@
 						<observation classCode="OBS" moodCode="GOL">
 							<!-- Goal Observation -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.121"/>
-							<id root="3700b3b0-fbed-12e2-b778-0800200c9a66"/>
+							<id root="3700b3b0-fbed-11e2-b778-0800200c9a66"/>
 							<code code="8310-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Negotiated Goal for Body Temperature"/>
 							<statusCode code="active"/>
 							<effectiveTime value="20150623"/>
@@ -3056,7 +3053,7 @@
 								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
 								<time value="20130730"/>
 								<assignedAuthor>
-									<id root="d839038b-7171-4165-a760-467925b43857"/>
+									<id root="d839038b-7271-4165-a760-467925b43857"/>
 									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
 									<assignedPerson>
 										<name>
@@ -3083,7 +3080,7 @@
 								<act classCode="ACT" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
 									<!-- This ID equals the problem -db -->
-									<id root="ab1791b0-5c71-11db-6666-6666666c6a66"/>
+									<id root="ab1791b0-5c71-11db-6266-6666666c6a66"/>
 									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
 									<code nullFlavor="NP"/>
 									<statusCode code="completed"/>
@@ -3214,7 +3211,7 @@
 								<act classCode="ACT" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
 									<!-- This ID equals the problem, Anemia in this case -db -->
-									<id root="ab1791b0-5c71-11db-6616-6666666c6a66"/>						
+									<id root="ab1791b0-5c71-11db-6666-6666666c6a66"/>						
 									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
 									<code nullFlavor="NP"/>
 									<statusCode code="completed"/>
@@ -3278,50 +3275,24 @@
 				</section>
 			</component>			
 
-			<!-- removed Reason for Referral -db -->		
-			<!-- added Hospital Course as per Discharge Summary Document type requirements -db -->
-			<!-- ******************************************************** 
-			Hospital Course 
-			******************************************************** -->
-			<!-- The Hospital Course Section describes the sequence of events 
-			from admission to discharge in a hospital facility. -->
-			<!-- The document Narrative was used for the text -db -->
-			<component>
-				<section>
-					<!-- note: there is no versioned version of this template -db -->
-					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.5"/>
-					<code code="8648-8" displayName="HOSPITAL COURSE" codeSystem="2.16.840.1.113883.6.1"
-						codeSystemName="LOINC"/>
-					<title>HOSPITAL COURSE</title>
-					<text>Ms. Rabecca Angeles is a 45 year old female with a history of Hypertension, Hypothyroidism, Iron deficiency and is a recipient of Renal Allograft is admitted on 6/22/2015 at 10 am EST to Community Health and Hospitals with history of intermittent fever for 2 days. The patient disclosed history of nausea, loose stools and weakness. She was found to have Anemia secondary to iron deficiency and CKD. After conducting multiple tests and administering necessary medications, the patient was discharged to Ambulatory facility to follow up with immunosuppression as an out-patient. The condition of the patient at discharge was stable, with controlled blood sugar levels and a pain score below 3. Additional follow up instructions have been provided to the patient.</text>
+			<!-- added Reason for Referral as required by Referral Note document type 
+				 However, there is no test data to support the section so recorded as NI -db -->
+			<!-- 
+			********************************************************
+			Reason for Referral 
+			********************************************************
+			-->			
+			<!-- edited as per test doc - all of this data is directly relevant -db -->	
+			<component>				
+				<section nullFlavor="NI">
+					<!-- Reason for Referral Section (V2) -->
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09"/>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+					<code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Reason for Referral"/>
+					<title>REASON FOR REFERRAL</title>
+					<text>No Reason for Referral data</text>
 				</section>
-			</component>
-			
-			<!-- added Discharge Diagnosis (V3) as per Discharge Summary Document type requirements -db -->
-			<!-- ******************************************************** 
-			Discharge Diagnosis Section
-			******************************************************** -->
-			<!-- The end of the document Narrative was used for the text -db -->
-			<component>
-				<section>
-					<!-- Discharge Diagnosis (V3) Section Template Id -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.24" extension="2015-08-01" />
-					<templateId root="2.16.840.1.113883.10.20.22.2.24" />
-					<code code="11535-2" displayName="Hospital Discharge Diagnosis"
-						codeSystem="2.16.840.1.113883.6.1"
-						codeSystemName="LOINC">
-						<!-- updated code from IG example to actual code required -db -->
-						<translation code="78375-3" displayName="Discharge Diagnosis"
-							codeSystem="2.16.840.1.113883.6.1"
-							codeSystemName="LOINC">
-						</translation>
-					</code>
-					<title>Discharge Diagnosis</title>
-					<!--This data should not need to be an exact match -db -->
-					<text>The patient was discharged to Ambulatory facility to follow up with immunosuppression as an out-patient. The condition of the patient at discharge was stable, with controlled blood sugar levels and a pain score below 3. Additional follow up instructions have been provided to the patient.</text>
-				</section>
-			</component>
-		
+			</component>		
 		
 		</structuredBody>
 	</component>
