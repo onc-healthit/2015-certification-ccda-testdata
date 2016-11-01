@@ -283,8 +283,8 @@
    <informant>
       <assignedEntity>
          <id
-            extension="KP00017"
-            root="2.16.840.1.113883.19.5"/>
+            extension="111111"
+            root="2.16.840.1.113883.4.6"/>
          <addr>
             <streetAddressLine>1002 Healthcare Drive </streetAddressLine>
             <city>Portland</city>
@@ -324,8 +324,8 @@
       <assignedCustodian>
          <representedCustodianOrganization>
             <id
-               extension="99999999"
-               root="2.16.840.1.113883.4.6"/>
+            extension="111111"
+            root="2.16.840.1.113883.4.6"/>
             <name>Community Health and Hospitals</name>
             <telecom
                value="tel: 555-555-1002"
@@ -361,7 +361,7 @@
          code="S"/>
       <assignedEntity>
          <id
-            extension="999999999"
+            extension="111111"
             root="2.16.840.1.113883.4.6"/>
          <addr>
             <streetAddressLine>1002 Healthcare Drive </streetAddressLine>
@@ -388,7 +388,7 @@
          code="S"/>
       <assignedEntity>
          <id
-            extension="999999999"
+            extension="111111"
             root="2.16.840.1.113883.4.6"/>
          <addr>
             <streetAddressLine>1002 Healthcare Drive </streetAddressLine>
@@ -495,8 +495,8 @@
             </time>
             <assignedEntity>
                <id
-                  extension="PseudoMD-1"
-                  root="2.16.840.1.113883.4.6"/>
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <code
                   code="208D00000X"
                   displayName="General Practice"
@@ -553,8 +553,8 @@
             </time>
             <assignedEntity>
                <id
-                  extension="PseudoMD-3"
-                  root="2.16.840.1.113883.4.6"/>
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <code
                   code="208D00000X"
                   displayName="General Practice"
@@ -613,7 +613,9 @@
          </effectiveTime>
          <responsibleParty>
             <assignedEntity>
-               <id root="2.16.840.1.113883.4.6"/>
+               <id
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <assignedPerson>
                   <name>
                      <prefix>Dr</prefix>
@@ -625,7 +627,9 @@
          </responsibleParty>
          <encounterParticipant typeCode="ATND">
             <assignedEntity>
-               <id root="2.16.840.1.113883.4.6"/>
+               <id
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <assignedPerson>
                   <name>
                      <prefix>Dr</prefix>
@@ -1479,7 +1483,9 @@ MEDICATIONS
 					 <author>
 								<time value="20120801"/>
 								<assignedAuthor>
-									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+									<id
+										extension="111111"
+										root="2.16.840.1.113883.4.6"/>
 									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
 										displayName="Allopathic &amp; Osteopathic Physicians"/>
 									<telecom use="WP" value="tel:+1(555)-555-1002"/>
@@ -1581,7 +1587,8 @@ MEDICATIONS
                                  nullFlavor="UNK"/>
                               <assignedAuthor>
                                  <id
-                                    root="2a620155-5a34-31c4-92b3-5d9815fe4de8"/>
+									extension="111111"
+									root="2.16.840.1.113883.4.6"/>
                                  <addr
                                     nullFlavor="UNK"/>
                                  <telecom
@@ -1661,8 +1668,8 @@ MEDICATIONS
                                  nullFlavor="UNK"/>
                               <assignedEntity>
                                  <id
-                                    root="2.16.840.1.113883.19.5.9999.456"
-                                    extension="2981823"/>
+									extension="111111"
+									root="2.16.840.1.113883.4.6"/>
                                  <addr>
                                     <streetAddressLine>1001 Village Avenue</streetAddressLine>
                                     <city>Portland</city>
@@ -2111,7 +2118,8 @@ HOSPITAL DISCHARGE MEDICATIONS
                                        nullFlavor="UNK"/>
                                     <assignedAuthor>
                                        <id
-                                          root="2a620155-9d11-439e-92b3-5d9815fe4de8"/>
+											extension="111111"
+											root="2.16.840.1.113883.4.6"/>
                                        <addr
                                           nullFlavor="UNK"/>
                                        <telecom
@@ -2196,8 +2204,8 @@ HOSPITAL DISCHARGE MEDICATIONS
                                        nullFlavor="UNK"/>
                                     <assignedEntity>
                                        <id
-                                          root="2.16.840.1.113883.19.5.9999.456"
-                                          extension="2981825"/>
+											extension="111111"
+											root="2.16.840.1.113883.4.6"/>
                                        <addr>
                                           <streetAddressLine>1002 Healthcare Dr</streetAddressLine>
                                           <city>Portland</city>
@@ -2346,7 +2354,9 @@ PROBLEM LIST
 							  <author>
 								<time value="20120801"/>
 								<assignedAuthor>
-									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+									<id
+										extension="111111"
+										root="2.16.840.1.113883.4.6"/>
 									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
 										displayName="Allopathic &amp; Osteopathic Physicians"/>
 									<telecom use="WP" value="tel:+1(555)-555-1002"/>

@@ -283,8 +283,8 @@
    <informant>
       <assignedEntity>
          <id
-            extension="KP00017"
-            root="2.16.840.1.113883.19.5"/>
+            extension="111111"
+            root="2.16.840.1.113883.4.6"/>
          <addr>
             <streetAddressLine>1002 Healthcare Drive </streetAddressLine>
             <city>Portland</city>
@@ -361,7 +361,7 @@
          code="S"/>
       <assignedEntity>
          <id
-            extension="999999999"
+            extension="111111"
             root="2.16.840.1.113883.4.6"/>
          <addr>
             <streetAddressLine>1002 Healthcare Drive </streetAddressLine>
@@ -388,7 +388,7 @@
          code="S"/>
       <assignedEntity>
          <id
-            extension="999999999"
+            extension="111111"
             root="2.16.840.1.113883.4.6"/>
          <addr>
             <streetAddressLine>1002 Healthcare Drive </streetAddressLine>
@@ -495,8 +495,8 @@
             </time>
             <assignedEntity>
                <id
-                  extension="PseudoMD-1"
-                  root="2.16.840.1.113883.4.6"/>
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <code
                   code="208D00000X"
                   displayName="General Practice"
@@ -553,8 +553,8 @@
             </time>
             <assignedEntity>
                <id
-                  extension="PseudoMD-3"
-                  root="2.16.840.1.113883.4.6"/>
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <code
                   code="208D00000X"
                   displayName="General Practice"
@@ -613,7 +613,9 @@
          </effectiveTime>
          <responsibleParty>
             <assignedEntity>
-               <id root="2.16.840.1.113883.4.6"/>
+               <id
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <assignedPerson>
                   <name>
                      <prefix>Dr</prefix>
@@ -625,7 +627,9 @@
          </responsibleParty>
          <encounterParticipant typeCode="ATND">
             <assignedEntity>
-               <id root="2.16.840.1.113883.4.6"/>
+               <id
+					extension="111111"
+					root="2.16.840.1.113883.4.6"/>
                <assignedPerson>
                   <name>
                      <prefix>Dr</prefix>
@@ -1577,7 +1581,8 @@ MEDICATIONS
                                  nullFlavor="UNK"/>
                               <assignedAuthor>
                                  <id
-                                    root="2a620155-5a20-31b0-92b3-5d9815fe4de8"/>
+									extension="111111"
+									root="2.16.840.1.113883.4.6"/>
                                  <addr
                                     nullFlavor="UNK"/>
                                  <telecom
@@ -1655,8 +1660,8 @@ MEDICATIONS
                                  nullFlavor="UNK"/>
                               <assignedEntity>
                                  <id
-                                    root="2.16.840.1.113883.19.5.9999.456"
-                                    extension="2981823"/>
+									extension="111111"
+									root="2.16.840.1.113883.4.6"/>
                                  <addr>
                                     <streetAddressLine>1002 Healthcare Dr</streetAddressLine>
                                     <city>Portland</city>
@@ -2109,7 +2114,8 @@ HOSPITAL DISCHARGE MEDICATIONS
                                        nullFlavor="UNK"/>
                                     <assignedAuthor>
                                        <id
-                                          root="2a620155-9d11-439e-92b3-5d9815fe4de8"/>
+											extension="111111"
+											root="2.16.840.1.113883.4.6"/>
                                        <addr
                                           nullFlavor="UNK"/>
                                        <telecom
@@ -2194,8 +2200,8 @@ HOSPITAL DISCHARGE MEDICATIONS
                                        nullFlavor="UNK"/>
                                     <assignedEntity>
                                        <id
-                                          root="2.16.840.1.113883.19.5.9999.456"
-                                          extension="2981825"/>
+											extension="111111"
+											root="2.16.840.1.113883.4.6"/>
                                        <addr>
                                           <streetAddressLine>1002 Healthcare Dr</streetAddressLine>
                                           <city>Portland</city>
