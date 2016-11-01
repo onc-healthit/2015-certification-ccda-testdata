@@ -2311,7 +2311,7 @@
 						  </text>
 						  <statusCode code="completed"/>
 						  <effectiveTime value="20150622"/>
-						  <value code="F" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Female"/>
+						  <value code="F" codeSystem="2.16.840.1.113883.18.2" xsi:type="CD" displayName="Female"/>
 						</observation>
 					</entry>
 					

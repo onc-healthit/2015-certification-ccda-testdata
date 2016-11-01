@@ -1053,7 +1053,7 @@
 						  </text>
 						  <statusCode code="completed"/>
 						  <effectiveTime value="20150722"/>
-						  <value code="M" codeSystem="2.16.840.1.113883.5.1" xsi:type="CD" displayName="Male"/>
+						  <value code="M" codeSystem="2.16.840.1.113883.18.2" xsi:type="CD" displayName="Male"/>
 						</observation>
 					</entry>
 					
