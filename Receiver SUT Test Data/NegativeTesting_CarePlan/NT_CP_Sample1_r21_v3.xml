@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
 <!--
- Title:        Continuity of Care Document (CCD)
+ Title:        Care Plan Document
   
  ********************************************************
- Disclaimer: This sample file contains representative data elements to represent a Continuity of Care Document (CCD). 
+ Disclaimer: This sample file contains representative data elements to represent a Care Plan. 
  The file depicts a fictional character's health data. Any resemblance to a real person is coincidental. 
  To illustrate as many data elements as possible, the clinical scenario may not be plausible. 
  The data in this sample file is not intended to represent real patients, people or clinical events. 
- This sample is designed to be used in conjunction with the C-CDA Clinical Notes Implementation Guide.
+ This sample is designed to be used in conjunction with the C-CDA Implementation Guide.
  ********************************************************
  -->
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 

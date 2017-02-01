@@ -2,17 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
 <!--
  Title:        Care Plan
- Filename:     C-CDA_R2_Care_Plan.xml
- Created by:   Lantana Consulting Group, LLC
  
- $LastChangedDate: 2014-11-12 23:25:09 -0500 (Wed, 12 Nov 2014) $
-  
  ********************************************************
  Disclaimer: This sample file contains representative data elements to represent a Care Plan. 
  The file depicts a fictional character's health data. Any resemblance to a real person is coincidental. 
  To illustrate as many data elements as possible, the clinical scenario may not be plausible. 
  The data in this sample file is not intended to represent real patients, people or clinical events. 
- This sample is designed to be used in conjunction with the C-CDA Clinical Notes Implementation Guide.
+ This sample is designed to be used in conjunction with the C-CDA Implementation Guide.
  ********************************************************
   -->
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:sdtc="urn:hl7-org:sdtc">
