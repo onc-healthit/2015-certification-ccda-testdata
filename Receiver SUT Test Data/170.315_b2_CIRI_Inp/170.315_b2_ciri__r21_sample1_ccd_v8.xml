@@ -29,14 +29,14 @@
 	<templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01"/>
 	<templateId root="2.16.840.1.113883.10.20.22.1.2"/>
 	<!-- Globally unique identifier for the document  -->
-	<id extension="TTRR112" root="2.16.840.1.113883.19.5.99999.1"/>
+	<id extension="TT111" root="2.16.840.1.113883.19.5.99999.1"/>
 	<code code="34133-9" displayName="Summarization of Episode Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 	<!-- Title of this document -->
-	<title>170.315_b2_ciri_r21_sample1_ccd_recon test data</title>
-	<effectiveTime value="20150222"/>
+	<title>170.315_b2_ciri_r21_sample1_ccd test data</title>
+	<effectiveTime value="20150622"/>
 	<confidentialityCode code="N" displayName="normal" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
 	<languageCode code="en-US"/>
-	<setId extension="sTTRR112" root="2.16.840.1.113883.19.5.99999.19"/>
+	<setId extension="sTT111" root="2.16.840.1.113883.19.5.99999.19"/>
 	<!-- Version of this document -->
 	<versionNumber value="1"/>
 	<recordTarget>
@@ -96,7 +96,7 @@
 	</recordTarget>
 	<!-- The author represents the person who provides the content in the document -->
 	<author>
-		<time value="20150222"/>
+		<time value="20150622"/>
 		<assignedAuthor>
 			<id extension="111111" root="2.16.840.1.113883.4.6"/>
 			<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
@@ -211,7 +211,7 @@
 	</informationRecipient>
 	<!-- The legalAuthenticator represents the individual who is responsible for the document -->
 	<legalAuthenticator>
-		<time value="20150222"/>
+		<time value="20150622"/>
 		<signatureCode code="S"/>
 		<assignedEntity>
 			<id extension="999999999" root="2.16.840.1.113883.4.6"/>
@@ -234,7 +234,7 @@
 	</legalAuthenticator>
 	<!-- The authenticator represents the individual attesting to the accuracy of information in the document-->
 	<authenticator>
-		<time value="20150222"/>
+		<time value="20150622"/>
 		<signatureCode code="S"/>
 		<assignedEntity>
 			<id extension="999999999" root="2.16.840.1.113883.4.6"/>
@@ -312,10 +312,10 @@
 			<!-- The effectiveTime reflects the provision of care summarized in the document. 
 				In this scenario, the provision of care summarized is the lifetime for the patient -->
 			<effectiveTime>
-				<low value="201502221000-0500"/>
+				<low value="201506221000-0500"/>
 				<!-- The low value represents when the summarized provision of care began. 
 					In this scenario, the patient's date of birth -->
-				<high value="201502221030-0500"/>
+				<high value="201506221030-0500"/>
 				<!-- The high value represents when the summarized provision of care being ended. 
 					In this scenario, when chart summary was created -->
 			</effectiveTime>
@@ -395,8 +395,8 @@
 			<id extension="9937012" root="2.16.840.1.113883.19"/>
 			<effectiveTime>
 			    <!-- represents length of time spent in hospital -db -->
-				<low value="201502221000-0500"/>
-				<high value="201502221030-0500"/>
+				<low value="201506221000-0500"/>
+				<high value="201506221030-0500"/>
 			</effectiveTime>			
 		</encompassingEncounter>
 	</componentOf>
@@ -428,18 +428,6 @@
 							<tbody>
 								<tr>
 									<td>
-										<content ID="product2">Ampicillin</content>
-									</td>
-									<td>
-										<content ID="reaction2">Hives</content>
-									</td>
-									<td>
-										<content ID="severity2">Moderate</content>
-									</td>
-									<td>Active</td>
-								</tr>
-								<tr>
-									<td>
 										<content ID="product1">Penicillin G benzathine</content>
 									</td>
 									<td>
@@ -461,7 +449,7 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01"/>
 							<!--Critical Change-->
 							<templateId root="2.16.840.1.113883.10.20.22.4.30"/>
-							<id root="b03805bd-8a10-41a0-a9ff-473c6653971a"/>
+							<id root="36e3e930-7b14-11db-9fe1-0800200c9a66"/>
 							<code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
 							<!-- The statusCode represents the need to continue tracking the allergy -->
 							<!-- This is of ongoing concern to the provider -->
@@ -475,7 +463,7 @@
 									<!-- ** Allergy observation (V2) ** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.7"/>
-									<id root="4adc1020-8a11-41a1-9fe1-0800200c9a68"/>
+									<id root="4adc1020-7b14-11db-9fe1-0800200c9a66"/>
 									<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
 									<!-- Observation statusCode represents the status of the act of observing -->
 									<statusCode code="completed"/>
@@ -490,7 +478,7 @@
 										codeSystemName="SNOMED-CT">
 									</value>
 									<author>
-										<time value="20150222"/>
+										<time value="20150622"/>
 										<assignedAuthor>
 											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
 											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
@@ -507,108 +495,7 @@
 									<participant typeCode="CSM">
 										<participantRole classCode="MANU">
 											<playingEntity classCode="MMAT">
-												<code code="81953"
-												displayName="Ampicillin"
-												codeSystem="2.16.840.1.113883.6.88"
-												codeSystemName="RxNorm">
-												<originalText>
-												<reference value="#product2"/>
-												</originalText>
-												</code>
-											</playingEntity>
-										</participantRole>
-									</participant>											
-									<entryRelationship typeCode="MFST" inversionInd="true">
-										<observation classCode="OBS" moodCode="EVN">
-											<!-- ** Reaction Observation (V2) ** -->
-											<templateId root="2.16.840.1.113883.10.20.22.4.9" extension="2014-06-09"/>
-											<templateId root="2.16.840.1.113883.10.20.22.4.9"/>
-											<id root="4adc1020-8a12-41a2-9fe1-0800200c9a69"/>
-											<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
-											<text>
-												<reference value="#reaction2"/>
-											</text>
-											<statusCode code="completed"/>
-											<value xsi:type="CD" code="247472004"
-												codeSystem="2.16.840.1.113883.6.96"
-												displayName="Hives"/>
-											<entryRelationship typeCode="SUBJ" inversionInd="true">
-												<observation classCode="OBS" moodCode="EVN">
-													<!-- ** Severity Observation  (V2)** -->
-													<!-- When the Severity Observation is associated directly with an allergy it characterizes the allergy. 
-								When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
-													<templateId root="2.16.840.1.113883.10.20.22.4.8" extension="2014-06-09"/>
-													<templateId root="2.16.840.1.113883.10.20.22.4.8"/>
-													<code code="SEV" displayName="Severity Observation" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
-													<text>
-														<reference value="#severity2"/>
-													</text>
-													<statusCode code="completed"/>
-													<value xsi:type="CD" code="6736007"
-														displayName="Moderate"
-														codeSystem="2.16.840.1.113883.6.96"
-														codeSystemName="SNOMED-CT"/>
-												</observation>
-											</entryRelationship>
-										</observation>
-									</entryRelationship>
-								</observation>
-							</entryRelationship>
-						</act>
-					</entry>
-					<entry typeCode="DRIV">
-						<act classCode="ACT" moodCode="EVN">
-							<!-- ** Allergy Concern Act (V3) ** -->
-							<templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01"/>
-							<!--Critical Change-->
-							<templateId root="2.16.840.1.113883.10.20.22.4.30"/>
-							<id root="36e3e930-7b14-11db-9fe1-ddddddddddd1"/>
-							<code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
-							<!-- The statusCode represents the need to continue tracking the allergy -->
-							<!-- This is of ongoing concern to the provider -->
-							<statusCode code="active"/>
-							<effectiveTime>
-								<!-- The low value represents when the allergy was first recorded in the patient's chart -->
-								<low value="19800501"/>
-							</effectiveTime>
-							<entryRelationship typeCode="SUBJ">
-								<observation classCode="OBS" moodCode="EVN">
-									<!-- ** Allergy observation (V2) ** -->
-									<templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09"/>
-									<templateId root="2.16.840.1.113883.10.20.22.4.7"/>
-									<id root="4adc1020-7b14-11db-9fe1-ddddddddddd2"/>
-									<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
-									<!-- Observation statusCode represents the status of the act of observing -->
-									<statusCode code="completed"/>
-									<effectiveTime>
-										<!-- The low value reflects the date of onset of the allergy -->
-										<low value="19800501"/>
-										<!-- The high value reflects when the allergy was known to be resolved (and will generally be absent) -->
-									</effectiveTime>
-									<value xsi:type="CD" code="419511003"
-										displayName="Propensity to adverse reaction to drug"
-										codeSystem="2.16.840.1.113883.6.96"
-										codeSystemName="SNOMED-CT">
-									</value>
-									<author>
-										<time value="20150222"/>
-										<assignedAuthor>
-											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Albert</given>
-													<family>Davis</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
-									<participant typeCode="CSM">
-										<participantRole classCode="MANU">
-											<playingEntity classCode="MMAT">
-												<code code="7982"
+												<code code="7980"
 												displayName="Penicillin G benzathine"
 												codeSystem="2.16.840.1.113883.6.88"
 												codeSystemName="RxNorm">
@@ -618,7 +505,7 @@
 												</code>
 											</playingEntity>
 										</participantRole>
-									</participant>								
+									</participant>									
 									<entryRelationship typeCode="MFST" inversionInd="true">
 										<observation classCode="OBS" moodCode="EVN">
 											<!-- ** Reaction Observation (V2) ** -->
@@ -629,8 +516,7 @@
 											<text>
 												<reference value="#reaction1"/>
 											</text>
-											<statusCode code="completed"/>
-											
+											<statusCode code="completed"/>	
 											<value xsi:type="CD" code="247472004"
 												codeSystem="2.16.840.1.113883.6.96"
 												displayName="Hives"/>
@@ -638,7 +524,7 @@
 												<observation classCode="OBS" moodCode="EVN">
 													<!-- ** Severity Observation  (V2)** -->
 													<!-- When the Severity Observation is associated directly with an allergy it characterizes the allergy. 
-								When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
+														When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
 													<templateId root="2.16.840.1.113883.10.20.22.4.8" extension="2014-06-09"/>
 													<templateId root="2.16.840.1.113883.10.20.22.4.8"/>
 													<code code="SEV" displayName="Severity Observation" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
@@ -681,14 +567,14 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>Darbepoetin Alfa 0.5 MG/ML</td>
-									<td ID="Darb_SIG">Once a week</td>
-									<td>February 22, 2015</td>
+									<td>Ceftriaxone 100MG/ML</td>
+									<td ID="Ceft_SIG">Two times daily</td>
+									<td>June 22, 2015</td>
 								</tr>
 								<tr>
 									<td>Tylenol 500mg</td>
-									<td ID="Tylenol_SIG">For 10 days As needed</td>
-									<td>February 22, 2015</td>
+									<td ID="Tylenol_SIG">As needed</td>
+									<td>June 22, 2015</td>
 								</tr>
 							</tbody>
 						</table>
@@ -698,14 +584,14 @@
 							<!-- ** Medication Activity (V2) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-							<id root="cdbd33f0-8a13-41a3-9fe1-0800200c9a67"/>
+							<id root="cdbd33f0-6cde-11db-9fe1-0800200c9a66"/>
 							<statusCode code="active"/>
 							<effectiveTime xsi:type="IVL_TS">
-								<low value="20150222"/>
-								<high nullFlavor="UNK"/>
+								<low value="20150622"/>
+								<high value="20150630"/>
 							</effectiveTime>
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
-								<period value="7" unit="d"/>
+								<period value="12" unit="h"/>
 							</effectiveTime>
 							<routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="INTRAVENOUS"/>
 							<doseQuantity value="1"/>
@@ -717,26 +603,26 @@
 									<!-- ** Medication information ** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
-									<id root="2a620155-8a14-41a4-92b3-5d9817ff4ee8"/>
+									<id root="2a620155-9d11-439e-92b3-5d9815ff4ee8"/>
 									<manufacturedMaterial>
-										<code code="731184" codeSystem="2.16.840.1.113883.6.88" displayName="Darbepoetin Alfa 0.5 MG/ML"/>
+										<code code="309090" codeSystem="2.16.840.1.113883.6.88" displayName="Ceftriaxone 100MG/ML"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
 							<author>
-										<time value="20150222"/>
-										<assignedAuthor>
-											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Albert</given>
-													<family>Davis</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
+								<time value="20150622"/>
+								<assignedAuthor>
+									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+										displayName="Allopathic &amp; Osteopathic Physicians"/>
+									<telecom use="WP" value="tel:+1(555)-555-1002"/>
+									<assignedPerson>
+										<name>
+											<given>Albert</given>
+											<family>Davis</family>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
 							</author>
 							<entryRelationship typeCode="COMP">
 								<!-- moodCode matches the parent substanceAdministration EVN or INT -->
@@ -748,7 +634,7 @@
 										displayName="Medication Instructions"/>
 									<text>
 										<!-- Reference into the section.text to a tag that ONLY contains free text SIG -->
-										<reference value="#Darb_SIG"/>
+										<reference value="#Ceft_SIG"/>
 									</text>
 									<consumable>
 										<manufacturedProduct>
@@ -764,10 +650,10 @@
 							<!-- ** Medication activity (V2) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-							<id root="6c844c75-aa34-411c-b7bd-ddddddddddd3"/>
+							<id root="6c844c75-aa34-411c-b7bd-5e4a9f206e29"/>
 							<statusCode code="active"/>
 							<effectiveTime xsi:type="IVL_TS">
-								<low value="20150222"/>
+								<low value="20150622"/>
 							</effectiveTime>
 							<!-- InstituionSpecified = "true" means that interval of time for taking need not be exact
 								 In this case it alters every 24 hours to mean PRN / take 'as needed' -db -->
@@ -789,19 +675,19 @@
 								</manufacturedProduct>
 							</consumable>
 							<author>
-										<time value="20150222"/>
-										<assignedAuthor>
-											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Albert</given>
-													<family>Davis</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
+								<time value="20150622"/>
+								<assignedAuthor>
+									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+										displayName="Allopathic &amp; Osteopathic Physicians"/>
+									<telecom use="WP" value="tel:+1(555)-555-1002"/>
+									<assignedPerson>
+										<name>
+											<given>Albert</given>
+											<family>Davis</family>
+										</name>
+									</assignedPerson>
+								</assignedAuthor>
 							</author>
 							<entryRelationship typeCode="COMP">
 								<!-- moodCode matches the parent substanceAdministration EVN or INT -->
@@ -839,26 +725,19 @@
 					<text>
 						<paragraph>Active Concerns</paragraph>
 						<list>
-							<item>Problem #1
-								<list>
-									<item>Essential hypertension</item>
-								</list>
-							</item>
-							<item>Problem #2
-								<list>
-									<item>Severe Hypothyroidism</item>
-								</list>
-							</item>
-							<item>Problem #3
-								<list>
-									<item>Chronic rejection of renal transplant</item>
-								</list>
-							</item>
 							<item>Problem #4
 								<list>
 									<item>Fever</item>
 								</list>
 							</item>							
+						</list>
+						<paragraph>Resolved Concerns</paragraph>
+						<list>
+							<item>Problem #5
+								<list>
+									<item>Overweight</item>
+								</list>
+							</item>
 						</list>
 					</text>
 					<entry typeCode="DRIV">
@@ -866,68 +745,14 @@
 							<!-- ** Problem Concern Act (V3) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
 							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
-							<id root="ec8a6ff8-8a15-41a5-82c3-e98e58b45de7" />
+							<id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45df9" />
 							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
 							<!-- The statusCode represents the need to continue tracking the problem -->
 							<!-- This is of ongoing concern to the provider -->
 							<statusCode code="active"/>
 							<effectiveTime>
 								<!-- The low value represents when the problem was first recorded in the patient's chart -->
-								<low value="20111005"/>
-							</effectiveTime>
-							<entryRelationship typeCode="SUBJ">
-								<observation classCode="OBS" moodCode="EVN">
-									<!-- ** Problem observation  (V3)** -->
-									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
-									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-8a16-41a6-b0de-0800200c9a66"/>
-									<code code="64572001" displayName="Condition" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
-										<!-- This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
-										<!-- Condition seems like the best option:
-										No EXACT requirement was given in the test data -db -->
-										<translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
-									</code>
-									<!-- The statusCode reflects the status of the observation itself -->
-									<statusCode code="completed"/>
-									<effectiveTime>
-										<!-- The low value reflects the date of onset -->
-										<low value="20111005"/>
-										<!-- The high value reflects when the problem was known to be resolved -->
-										<!-- Absence of effectiveTime/high means the condition is not resolved -->
-									</effectiveTime>
-									<value xsi:type="CD" code="59621000" codeSystem="2.16.840.1.113883.6.96" displayName="Essential hypertension" codeSystemName="SNOMED-CT"/>
-									<author>
-										<time value="20150222"/>
-										<assignedAuthor>
-											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Albert</given>
-													<family>Davis</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
-								</observation>
-							</entryRelationship>
-						</act>
-					</entry>
-					<entry typeCode="DRIV">
-						<act classCode="ACT" moodCode="EVN">
-							<!-- ** Problem Concern Act (V3) ** -->
-							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
-							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
-							<id root="ec8a6ff8-8a17-41a7-82c3-e98e58b45de8" />
-							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
-							<!-- The statusCode represents the need to continue tracking the problem -->
-							<!-- This is of ongoing concern to the provider -->
-							<statusCode code="active"/>
-							<effectiveTime>
-								<!-- The low value represents when the problem was first recorded in the patient's chart -->
-								<low value="20061231"/>
+								<low value="20150622"/>
 							</effectiveTime>
 							<!-- removed author as not required -db -->
 							<entryRelationship typeCode="SUBJ">
@@ -935,120 +760,7 @@
 									<!-- ** Problem observation  (V3)** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-8a18-41a8-b0de-0800200c9a68"/>
-									<code code="64572001" displayName="Condition" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
-										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
-										<!-- Condition seems like the best option:
-										No EXACT requirement was given in the test data -db -->
-										<translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
-									</code>
-									<!-- The statusCode reflects the status of the observation itself -->
-									<statusCode code="completed"/>
-									<effectiveTime>
-										<!-- The low value reflects the date of onset -->
-										<low value="20061231"/>
-										<!-- The high value reflects when the problem was known to be resolved -->
-										<!-- Absence of effectiveTime/high means the condition is not resolved -->
-									</effectiveTime>
-									<value xsi:type="CD" code="83986005" codeSystem="2.16.840.1.113883.6.96" displayName="Severe Hypothyroidism" codeSystemName="SNOMED-CT"/>
-									<author>
-										<time value="20150222"/>
-										<assignedAuthor>
-											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Albert</given>
-													<family>Davis</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
-									<!-- removed author as not required -db -->
-								</observation>
-							</entryRelationship>
-						</act>
-					</entry>
-					<entry typeCode="DRIV">
-						<act classCode="ACT" moodCode="EVN">
-							<!-- ** Problem Concern Act (V3) ** -->
-							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
-							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
-							<id root="ec8a6ff8-8a19-41a9-82c3-e98e58b45de9" />
-							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
-							<!-- The statusCode represents the need to continue tracking the problem -->
-							<!-- This is of ongoing concern to the provider -->
-							<statusCode code="active"/>
-							<effectiveTime>
-								<!-- The low value represents when the problem was first recorded in the patient's chart -->
-								<low value="20111231"/>
-							</effectiveTime>
-							<!-- removed author as not required -db -->
-							<entryRelationship typeCode="SUBJ">
-								<observation classCode="OBS" moodCode="EVN">
-									<!-- ** Problem observation  (V3)** -->
-									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
-									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-8a20-41b0-b0de-0800200c9a69"/>
-									<code code="64572001" displayName="Condition" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">									
-										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
-										<!-- Condition seems like the best option:
-										No EXACT requirement was given in the test data -db -->
-										<translation code="75323-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Condition"/>
-									</code>
-									<!-- The statusCode reflects the status of the observation itself -->
-									<statusCode code="completed"/>
-									<effectiveTime>
-										<!-- The low value reflects the date of onset -->
-										<low value="20111231"/>
-										<!-- The high value reflects when the problem was known to be resolved -->
-										<!-- Absence of effectiveTime/high means the condition is not resolved -->
-									</effectiveTime>
-									<value xsi:type="CD" code="236578006" codeSystem="2.16.840.1.113883.6.96" displayName="Chronic rejection of renal transplant" codeSystemName="SNOMED-CT"/>
-									<!-- removed author as not required -db -->
-									<author>
-										<time value="20150222"/>
-										<assignedAuthor>
-											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-												displayName="Allopathic &amp; Osteopathic Physicians"/>
-											<telecom use="WP" value="tel:+1(555)-555-1002"/>
-											<assignedPerson>
-												<name>
-													<given>Albert</given>
-													<family>Davis</family>
-												</name>
-											</assignedPerson>
-										</assignedAuthor>
-									</author>
-								</observation>
-							</entryRelationship>
-						</act>
-					</entry>
-					<entry typeCode="DRIV">
-						<act classCode="ACT" moodCode="EVN">
-							<!-- ** Problem Concern Act (V3) ** -->
-							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
-							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
-							<id root="ec8a6ff8-8a21-41b1-82c3-e98e58b45df9" />
-							<id root="ec8a6ff8-8a21-41b1-82c3-ddddddddddd4" />
-							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
-							<!-- The statusCode represents the need to continue tracking the problem -->
-							<!-- This is of ongoing concern to the provider -->
-							<statusCode code="active"/>
-							<effectiveTime>
-								<!-- The low value represents when the problem was first recorded in the patient's chart -->
-								<low value="20150222"/>
-							</effectiveTime>
-							<!-- removed author as not required -db -->
-							<entryRelationship typeCode="SUBJ">
-								<observation classCode="OBS" moodCode="EVN">
-									<!-- ** Problem observation  (V3)** -->
-									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
-									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-8a22-41b2-b0de-ddddddddddd5"/>
+									<id root="ab1791b0-5c71-11db-b0de-0800200c9a79"/>
 									<code code="29308" displayName="Diagnosis" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
 										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
 										<!-- Diagnosis seems like the best option:
@@ -1059,14 +771,14 @@
 									<statusCode code="completed"/>
 									<effectiveTime>
 										<!-- The low value reflects the date of onset -->
-										<low value="20150222"/>
+										<low value="20150622"/>
 										<!-- The high value reflects when the problem was known to be resolved -->
 										<!-- Absence of effectiveTime/high means the condition is not resolved -->
 									</effectiveTime>
 									<value xsi:type="CD" code="386661006" codeSystem="2.16.840.1.113883.6.96" displayName="Fever" codeSystemName="SNOMED-CT"/>
 									<!-- removed author as not required -db -->
 									<author>
-										<time value="20150222"/>
+										<time value="20150622"/>
 										<assignedAuthor>
 											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
 											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
@@ -1083,7 +795,65 @@
 								</observation>
 							</entryRelationship>
 						</act>
-					</entry>															
+					</entry>
+					<entry typeCode="COMP">
+						<act classCode="ACT" moodCode="EVN">
+							<!-- ** Problem Concern Act (V3) ** -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
+							<id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45df8" />
+							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+							<!-- The statusCode represents the need to continue tracking the problem -->
+							<!-- This is of ongoing concern to the provider -->
+							<statusCode code="completed"/>
+							<effectiveTime>
+								<!-- The low value represents when the problem was first recorded in the patient's chart -->
+								<low value="20061231"/>
+								<!-- The high value reflects when there was no longer a need to track the problem -->
+								<high value="20070601"/>							
+							</effectiveTime>
+							<!-- removed author as not required -db -->
+							<entryRelationship typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<!-- ** Problem observation  (V3)** -->
+									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
+									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+									<id root="ab1791b0-5c71-11db-b0de-0800200c2b11"/>
+									<code code="29308" displayName="Diagnosis" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
+										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
+										<!-- Diagnosis seems like the best option:
+										No EXACT requirement was given in the test data -db -->
+										<translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+									</code>
+									<!-- The statusCode reflects the status of the observation itself -->
+									<statusCode code="completed"/>
+									<effectiveTime>
+										<!-- The low value reflects the date of onset -->
+										<low value="20061231"/>
+										<!-- The high value reflects when the problem was known to be resolved -->
+										<high value="20070601"/>
+									</effectiveTime>
+									<value xsi:type="CD" code="238131007" codeSystem="2.16.840.1.113883.6.96" displayName="Overweight" codeSystemName="SNOMED-CT"/>
+									<!-- removed author as not required -db -->
+									<author>
+										<time value="20150622"/>
+										<assignedAuthor>
+											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+												displayName="Allopathic &amp; Osteopathic Physicians"/>
+											<telecom use="WP" value="tel:+1(555)-555-1002"/>
+											<assignedPerson>
+												<name>
+													<given>Albert</given>
+													<family>Davis</family>
+												</name>
+											</assignedPerson>
+										</assignedAuthor>
+									</author>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>																			
 				</section>
 			</component>
 			
@@ -1111,7 +881,7 @@
 								<tr>
 									<td ID="Encounter1"> Fever </td>
 									<td>Neighborhood Physicians Practice</td>
-									<td>February 22, 2015 at 10am EST</td>
+									<td>June 22, 2015 at 10am EST</td>
 								</tr>
 							</tbody>
 						</table>
@@ -1132,7 +902,7 @@
 								<translation code="AMB" codeSystem="2.16.840.1.113883.5.4" displayName="Ambulatory" codeSystemName="HL7 ActEncounterCode"/>
 								-->
 							</code>
-							<effectiveTime value="20150222"/>
+							<effectiveTime value="20150622"/>
 							<performer>
 								<assignedEntity>
 									<!-- Provider NPI "99999999" -db -->
@@ -1171,7 +941,7 @@
 									  codeSystemName="LOINC"
 									  displayName="ENCOUNTER DIAGNOSIS"/>
 								   <effectiveTime>
-									  <low value="20150222"/>
+									  <low value="20150622"/>
 								   </effectiveTime>
 								   <entryRelationship typeCode="SUBJ" inversionInd="false">
 									  <!-- Problem Observation (V3) -->
@@ -1187,7 +957,7 @@
 										 <!-- SHALL be completed -->
 										 <statusCode code="completed"/>
 											<effectiveTime>
-												<low value="20150222"/>
+												<low value="20150622"/>
 											</effectiveTime>
 											<value xsi:type="CD" code="386661006" displayName="Fever" codeSystem="2.16.840.1.113883.6.96"/>
 									  </observation>
@@ -1388,7 +1158,7 @@
 					<text>No Medical Equipment implants on Patient</text>	
 				</section>
 			</component>
-		
+			
 		</structuredBody>
 	</component>
 </ClinicalDocument>
