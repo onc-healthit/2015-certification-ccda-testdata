@@ -55,7 +55,7 @@
    
    <!-- CONF 5363 -->
    <id
-      extension="Test CCDA"
+      extension="Test CCDA R11 Base"
       root="1.1.1.1.1.1.1.1.1"/>
    
    <!-- CONF 5253 "CCD document" -->
