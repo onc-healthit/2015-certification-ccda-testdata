@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
 <!--
  Title:        Care Plan
- 
+  
  ********************************************************
  Disclaimer: This sample file contains representative data elements to represent a Care Plan. 
  The file depicts a fictional character's health data. Any resemblance to a real person is coincidental. 
@@ -15,6 +15,7 @@
 	<!-- ** CDA Header ** -->
 	<realmCode code="US"/>
 	<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01"/>
 	<templateId root="2.16.840.1.113883.10.20.22.1.15" extension="2015-08-01"/>
 	<id root="db734647-fc99-424c-a864-7e3cda82e703"/>
 	<code code="52521-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Overall Plan of Care/Advance Care Directives"/>
@@ -430,8 +431,7 @@ Health Concerns section
 				<section>
 					<!-- Health Concerns Section -->
 					<templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01"/>
-					<!-- Bad Code -->
-					<code code="ddsfddssadfdsas" displayName="Health Concerns Document" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<code code="75310-3" displayName="Health Concerns Document" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>Health Concerns Section</title>
 					<text>
 						<table border="1" width="100%">
@@ -500,7 +500,7 @@ Health Concerns section
 					<entry>
 						<!-- Health Concern Act -->
 						<act classCode="ACT" moodCode="EVN">
-							<templateId root="2.16.840.1.113883.10.20.22.4.132" extension="2015-08-01"/>
+							<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 							<id root="4eab0e52-dd7d-4285-99eb-72d32ddb195c"/>
 							<code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern"/>
 							<!-- This Health Concern has a statusCode of active because it is an active concern -->
@@ -733,8 +733,7 @@ Health Concerns section
 				<section>
 					<!-- Goals Section -->
 					<templateId root="2.16.840.1.113883.10.20.22.2.60"/>
-					<!-- Bad Code -->
-					<code code="sdfdfasfdfererewwe" displayName="Goals" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<code code="61146-7" displayName="Goals" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>Goals Section</title>
 					<text>
 						<table border="1" width="100%">
@@ -761,7 +760,7 @@ Health Concerns section
 						<!-- This is an observation about the expected outcome of a pulse ox reading of 92 or greater. -->
 						<observation classCode="OBS" moodCode="GOL">
 							<!-- Goal Observation -->
-							<templateId root="2.16.840.1.113883.10.20.22.4.121"/>
+							<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 							<id root="3700b3b0-fbed-11e2-b778-0800200c9a66"/>
 							<code code="44616-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse oximetry panel"/>
 							<statusCode code="active"/>
@@ -871,8 +870,7 @@ Interventions Section
 				<section>
 					<!-- Interventions Section (V2) -->
 					<templateId root="2.16.840.1.113883.10.20.21.2.3" extension="2014-06-09"/>
-					<!-- Bad Code -->
-					<code code="sffoeiropeie" displayName="Interventions Provided" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<code code="62387-6" displayName="Interventions Provided" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>Interventions Section</title>
 					<text>
 						<table border="1" width="100%">
@@ -926,7 +924,7 @@ Interventions Section
                   The intervention contains relationships to different components of the intervention. -->
 						<!-- Planned Intervention Act -->
 						<act classCode="ACT" moodCode="INT">
-							<templateId root="2.16.840.1.113883.10.20.22.4.146"/>
+							<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 							<id root="85fa4b62-e3a9-4385-b064-fe04cca35adb"/>
 							<code code="362956003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Intervention"/>
 							<statusCode code="active"/>
@@ -1234,8 +1232,7 @@ Interventions Section
 				<section>
 					<!-- Health Status Evaluations/Outcomes Section  -->
 					<templateId root="2.16.840.1.113883.10.20.22.2.61"/>
-					<!-- Bad Code -->
-					<code code="xccvcvccvcc" displayName="Patient Problem Outcome" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<code code="11383-7" displayName="Patient Problem Outcome" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>Health Status Evaluations/Outcomes Section</title>
 					<text>
 						<table border="1" width="100%">
@@ -1258,7 +1255,7 @@ Interventions Section
 					<entry>
 						<!-- Outcome Observation -->
 						<observation classCode="OBS" moodCode="EVN">
-							<templateId root="2.16.840.1.113883.10.20.22.4.144"/>
+							<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 							<id root="0aaaa123-24e2-46b3-9d49-6b753c712dec"/>
 							<code code="44616-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse oximetry panel"/>
 							<statusCode code="completed"/>
