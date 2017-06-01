@@ -31,7 +31,7 @@
 	<templateId root="2.16.840.1.113883.10.20.22.1.8" extension="2015-08-01"/>
 	<templateId root="2.16.840.1.113883.10.20.22.1.8"/>
 	<!-- Globally unique identifier for the document  -->
-	<id extension="TT107" root="2.16.840.1.113883.19.5.99999.1"/>
+	<id extension="ToC_6" root="2.16.840.1.113883.19.5.99999.1"/>
 	<code code="18842-5" displayName="Discharge Summary" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 	<!-- Title of this document -->
 	<title>170.315_b1_toc_inp_ds_r21_sample1 test data</title>
