@@ -142,6 +142,7 @@
 			<telecom use="WP" value="tel:+1(555)-555-1002"/>
 			<assignedPerson>
 				<name>
+				<!-- Tracy Davis is a Registered Nurse who is performing some office functions and nurse functions -->
 					<given>Tracy</given>
 					<family>Davis</family>
 				</name>
@@ -371,9 +372,7 @@
 				<assignedEntity>
 					<!-- this provider has an id, but it is not an NPI  -->
 					<id extension="91138" root="1.3.6.1.4.1.22812.4.99930.4"/>
-					<!-- the provider is a Registered Nurse - may not be so -->
-					<!-- note: we don't know what Tracy is from the test data
-						 but since not specified, RN should not be an issue -db -->
+					<!-- Tracy Davis is a Registered Nurse who is performing some office functions and nurse functions -->
 					<code codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC Health Care Provider Taxonomy" code="163W00000X" displayName="Registered Nurse"/>
 					<addr>
 						<streetAddressLine>2472 Rocky place</streetAddressLine>
@@ -385,6 +384,7 @@
 					<telecom use="WP" value="tel:+1(555)-555-1002"/>
 					<assignedPerson>
 						<name>
+						<!-- Tracy Davis is a Registered Nurse who is performing some office functions and nurse functions -->
 							<given>Tracy</given>
 							<family>Davis</family>
 						</name>
@@ -2332,14 +2332,6 @@
 							<effectiveTime value="20150622"/>
 							<!-- this may not be the recommended way to record a visual inspection -db -->
 							<value xsi:type="ST">Get rid of intermittent fever that is occurring every few weeks. (Visual Inspection)</value>
-							<!--
-							  If the author is set to the recordTarget (patient), this is a patient goal.  
-							  If the author is set to a provider, this is a provider goal. 
-							  If both patient and provider are set as authors, this is a negotiated goal.
-                            -->
-							<!-- The following two authors were NOT modified by me.
-							They are not relevant to the test data but are part of a SHALL requirement -db -->
-							<!-- Provider Author -->
 							<author>
 								<templateId root="2.16.840.1.113883.10.20.22.4.119"/>
 								<time value="20150622"/>
@@ -2348,6 +2340,7 @@
 									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
 									<assignedPerson>
 										<name>
+										<!-- Tracy Davis is a Registered Nurse who is performing some office functions and nurse functions -->
 											<given>Tracy</given>
 											<family>Davis</family>
 											<suffix>RN</suffix>
@@ -2389,6 +2382,7 @@
 									<code code="163W00000X" displayName="Registered nurse" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"/>
 									<assignedPerson>
 										<name>
+										<!-- Tracy Davis is a Registered Nurse who is performing some office functions and nurse functions -->
 											<given>Tracy</given>
 											<family>Davis</family>
 											<suffix>RN</suffix>
