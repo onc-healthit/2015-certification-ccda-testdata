@@ -601,7 +601,7 @@
 							<text><reference value="#Concern_1"></reference></text>
 							<statusCode code="active"/> <!-- The concern is not active, in terms of there being an active condition to be managed.-->
 							<effectiveTime>
-								<low value="20150722"/> <!-- Time at which THIS “concern” began being tracked.-->
+								<low value="20150722"/> <!-- Time at which THIS concern began being tracked.-->
 							</effectiveTime> <!-- status is active so high is not applicable. If high is present it should have nullFlavor of NA-->
 							<entryRelationship typeCode="SUBJ">
 								<!-- Model of Meaning for No Problems -->
