@@ -506,10 +506,16 @@
 									<templateId root="2.16.840.1.113883.3.445.12"
 										assigningAuthorityName="HL7 CBCC"/>
 									<!-- Confidentiality Security Observation - the only mandatory element of a Privacy Annotation -->
-									<code code="SECCLASSOBS"
+									<!-- old invalid code -dbDS4P -->
+									<!-- <code code="SECCLASSOBS"
 										codeSystem="2.16.840.1.113883.1.11.20457"
 										displayName="Security Classification"
-										codeSystemName="HL7 SecurityObservationTypeCodeSystem"/>
+										codeSystemName="HL7 SecurityObservationTypeCodeSystem"/> -->
+									<!-- new corrected code -dbDS4P -->
+									<code code="SECCLASSOBS"
+										codeSystem="2.16.840.1.113883.1.11.20471"
+										displayName="Security Category"
+										codeSystemName="SecurityControlObservationValue"/>									
 									<!-- value set constrained to "2.16.840.1.113883.1.11.16926" -->
 									<value xsi:type="CE" code="R"
 										codeSystem="2.16.840.1.113883.5.1063"
@@ -531,13 +537,22 @@
 										displayName="Security Classification"
 										codeSystemName="HL7 SecurityObservationTypeCodeSystem"/>
 									<!-- Value set constraint "2.16.840.1.113883.1.11.20446" -->
-									<value xsi:type="CE" code="NORDSLCD"
+									<!-- old invalid value -dbDS4P -->
+									<!-- <value xsi:type="CE" code="NORDSLCD"
 										codeSystem="2.16.840.1.113883.5.1063"
 										codeSystemName="SecurityObservationValueCodeSystem"
 										displayName="Prohibition on redisclosure without patient consent directive">
 										<originalText>Prohibition on redisclosure without patient
 											consent directive</originalText>
-									</value>
+									</value> -->
+									<!-- new correct value -db -->
+									<value xsi:type="CE" code="NORDSCLCD"
+										codeSystem="2.16.840.1.113883.1.11.20471"
+										codeSystemName="SecurityObservationValue"
+										displayName="Prohibition on redisclosure without patient consent directive">
+										<originalText>Prohibition on redisclosure without patient
+											consent directive</originalText>
+									</value>			
 								</observation>
 							</component>
 							<component typeCode="COMP">
