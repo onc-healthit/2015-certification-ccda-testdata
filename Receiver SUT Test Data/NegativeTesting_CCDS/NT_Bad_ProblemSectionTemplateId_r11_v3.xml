@@ -55,7 +55,7 @@
    
    <!-- CONF 5363 -->
    <id
-      extension="NT_R11_28"
+      extension="NT_R11_4"
       root="1.1.1.1.1.1.1.1.1"/>
    
    <!-- CONF 5253 "CCD document" -->
@@ -708,172 +708,13 @@ Allergies, Adverse Reactions, Alerts
                   <act
                      classCode="ACT"
                      moodCode="EVN">
-					 <!-- negative testing: bad templateId (not a templateId that exists anywhere) entry level -db -->
-					 <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
-                     <!-- ** Allergy problem act ** -->
-                     <id
-                        root="36e3e930-7b14-11db-9fe1-0800200c9a66"/>
-                     <code
-                        code="48765-2"
-                        codeSystem="2.16.840.1.113883.6.1"
-                        codeSystemName="LOINC"
-                        displayName="Allergies, adverse reactions, alerts"/>
-                     <statusCode
-                        code="completed"/>
-                     <effectiveTime
-                        value="20070501">
-                        <low
-                           value="20070501"/>
-                        <high
-                           value="20120806"/>
-                     </effectiveTime>
-                     <entryRelationship
-                        typeCode="SUBJ">
-                        <observation
-                           classCode="OBS"
-                           moodCode="EVN">
-                           <!-- allergy observation template -->
-                           <templateId
-                              root="2.16.840.1.113883.10.20.22.4.7"/>
-                           <id
-                              root="4adc1020-7b14-11db-9fe1-0800200c9a66"/>
-                           <code
-                              code="ASSERTION"
-                              codeSystem="2.16.840.1.113883.5.4"/>
-                           <statusCode
-                              code="completed"/>
-                           <effectiveTime>
-                              <low nullFlavor="UNK"/>
-                              <high  value="20120806"/>
-                           </effectiveTime>
-                           <value
-                              xsi:type="CD"
-                              code="419511003"
-                              displayName="Propensity to adverse reaction to drug"
-                              codeSystem="2.16.840.1.113883.6.96"
-                              codeSystemName="SNOMED CT">
-                              <originalText>
-                                 <reference
-                                    value="#reaction1"/>
-                              </originalText>
-                           </value>
-                           <participant
-                              typeCode="CSM">
-                              <participantRole
-                                 classCode="MANU">
-                                 <playingEntity
-                                    classCode="MMAT">
-                                    <code
-                                       code="7982"
-                                       displayName="Penicillin G benzathine"
-                                       codeSystem="2.16.840.1.113883.6.88"
-                                       codeSystemName="RxNorm">
-                                       <originalText>
-                                          <reference
-                                             value="#reaction1"/>
-                                       </originalText>
-                                    </code>
-                                 </playingEntity>
-                              </participantRole>
-                           </participant>
-                           <entryRelationship
-                              typeCode="SUBJ"
-                              inversionInd="true">
-                              <observation
-                                 classCode="OBS"
-                                 moodCode="EVN">
-                                 <templateId
-                                    root="2.16.840.1.113883.10.20.22.4.28"/>
-                                 <!-- Allergy status observation template -->
-                                 <code
-                                    code="33999-4"
-                                    codeSystem="2.16.840.1.113883.6.1"
-                                    codeSystemName="LOINC"
-                                    displayName="Status"/>
-                                 <statusCode
-                                    code="completed"/>
-                                 <value
-                                    xsi:type="CE"
-                                    code="73425007"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Inactive"/>
-                              </observation>
-                           </entryRelationship>
-                           <entryRelationship
-                              typeCode="MFST"
-                              inversionInd="true">
-                              <observation
-                                 classCode="OBS"
-                                 moodCode="EVN">
-                                 <templateId
-                                    root="2.16.840.1.113883.10.20.22.4.9"/>
-                                 <!-- Reaction observation template -->
-                                 <id
-                                    root="4adc1020-7b14-11db-9fe1-0800200c9a64"/>
-                                 <code
-                                    nullFlavor="NA"/>
-                                 <text>
-                                    <reference
-                                       value="#reaction1"/>
-                                 </text>
-                                 <statusCode
-                                    code="completed"/>
-                                 <effectiveTime>
-                                    <low
-                                       value="20070501"/>
-                                 </effectiveTime>
-                                 <value
-                                    xsi:type="CD"
-                                    code="247472004"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    displayName="Hives"/>
-                              </observation>
-                           </entryRelationship>
-                           <entryRelationship
-                              typeCode="SUBJ"
-                              inversionInd="true">
-                              <observation
-                                 classCode="OBS"
-                                 moodCode="EVN">
-                                 <templateId
-                                    root="2.16.840.1.113883.10.20.22.4.8"/>
-                                 <!-- ** Severity observation template ** -->
-                                 <code xsi:type="CE"
-                                    code="SEV"
-                                    displayName="Severity Observation"
-                                    codeSystem="2.16.840.1.113883.5.4"
-                                    codeSystemName="ActCode"/>
-                                 <text>
-                                    <reference
-                                       value="#severity1"/>
-                                 </text>
-                                 <statusCode
-                                    code="completed"/>
-                                 <value
-                                    xsi:type="CD"
-                                    code="371924009"
-                                    displayName="Moderate to severe"
-                                    codeSystem="2.16.840.1.113883.6.96"
-                                    codeSystemName="SNOMED CT"/>
-                              </observation>
-                           </entryRelationship>
-                        </observation>
-                     </entryRelationship>
-                  </act>
-               </entry>			   
-               <entry
-                  typeCode="DRIV">
-                  <act
-                     classCode="ACT"
-                     moodCode="EVN">
                      <templateId
                         root="2.16.840.1.113883.10.20.22.4.30"/>
                      <!-- ** Allergy problem act ** -->
                      <id
                         root="36e3e930-7b14-11db-9fe1-0800200c9a66"/>
-					 <!-- negative testing: bad code (not a code that exists anywhere) entry -db -->
                      <code
-                        code="NOT_a_real_code"
+                        code="48765-2"
                         codeSystem="2.16.840.1.113883.6.1"
                         codeSystemName="LOINC"
                         displayName="Allergies, adverse reactions, alerts"/>
@@ -1030,10 +871,8 @@ Allergies, Adverse Reactions, Alerts
                      <!-- ** Allergy problem act ** -->
                      <id
                         root="36e3e930-7b14-11db-9fe1-0800200c9a66"/>
-					 <!-- negative testing: invalid code (code part of codeSystem but not valueSet) entry -db -->
-					 <!-- In this case, if using LOINC, any LOINC code except 48765-2 should fail -db -->
                      <code
-                        code="75312-9"
+                        code="48765-2"
                         codeSystem="2.16.840.1.113883.6.1"
                         codeSystemName="LOINC"
                         displayName="Allergies, adverse reactions, alerts"/>
@@ -1190,10 +1029,9 @@ Allergies, Adverse Reactions, Alerts
                      <!-- ** Allergy problem act ** -->
                      <id
                         root="36e3e930-7b14-11db-9fe1-0800200c9a66"/>
-					 <!-- negative testing: bad codeSystem (incorrect codeSystem) entry -db -->
                      <code
                         code="48765-2"
-                        codeSystem="2.16.840.1.113883.6.96"
+                        codeSystem="2.16.840.1.113883.6.1"
                         codeSystemName="LOINC"
                         displayName="Allergies, adverse reactions, alerts"/>
                      <statusCode
@@ -2799,8 +2637,9 @@ PROBLEM LIST
 -->
          <component>
             <section>
-               <templateId
-                  root="2.16.840.1.113883.10.20.22.2.5.1"/>
+			   <!-- negative testing: bad/missing templateId (not a templateId that exists anywhere) -db -->
+             <!--  <templateId
+                  root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
                <code
                   code="11450-4"
                   codeSystem="2.16.840.1.113883.6.1"
