@@ -24,7 +24,7 @@
 	<templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01"/>
 	<templateId root="2.16.840.1.113883.10.20.22.1.2"/>
 	<!-- Globally unique identifier for the document  -->
-	<id extension="NT_CCDS_3" root="2.16.840.1.113883.19.5.99999.1"/>
+	<id extension="NT_CCDS_1" root="2.16.840.1.113883.19.5.99999.1"/>
 	<code code="34133-9" displayName="Summarization of Episode Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 	<!-- Title of this document -->
 	<title>170.315_b1_gold_sample1 test data</title>
@@ -398,9 +398,9 @@
 			<!-- edited as per test doc - all data relevant -db -->
 			<component>
 				<section>
-					<!-- *** Allergies and Intolerances Section (entries required) (V3) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+					<!-- *** Allergies and Intolerances Section (entries required) (V3) *** BAD/Missing -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<!-- section code -->
 					<code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 					<title>ALLERGIES AND ADVERSE REACTIONS</title>
@@ -473,8 +473,7 @@
 										<low value="19800501"/>
 										<!-- The high value reflects when the allergy was known to be resolved (and will generally be absent) -->
 									</effectiveTime>
-									<!-- BAD Code -->
-									<value xsi:type="CD" code="4195110031"
+									<value xsi:type="CD" code="419511003"
 										displayName="Propensity to adverse reaction to drug"
 										codeSystem="2.16.840.1.113883.6.96"
 										codeSystemName="SNOMED CT">
@@ -485,8 +484,7 @@
 									<participant typeCode="CSM">
 										<participantRole classCode="MANU">
 											<playingEntity classCode="MMAT">
-											    <!-- BAD Code -->
-												<code code="7982A"
+												<code code="7982"
 												displayName="Penicillin G benzathine"
 												codeSystem="2.16.840.1.113883.6.88"
 												codeSystemName="RxNorm">
@@ -501,7 +499,7 @@
 										<observation classCode="OBS" moodCode="EVN">
 											<!-- ** Severity Observation  (V2)** -->
 											<!-- When the Severity Observation is associated directly with an allergy it characterizes the allergy. 
-                        When the Severity Observation is associated with a Reaction Observation it characterizes  a Reaction. -->
+                        When the Severity Observation is associated with a Reaction Observation it characterizes a Reaction. -->
 											<templateId root="2.16.840.1.113883.10.20.22.4.8" extension="2014-06-09"/>
 											<templateId root="2.16.840.1.113883.10.20.22.4.8"/>
 											<code code="SEV" displayName="Severity Observation" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
@@ -509,8 +507,7 @@
 												<reference value="#severity1"/>
 											</text>
 											<statusCode code="completed"/>
-											<!-- BAD code -->
-											<value xsi:type="CD" code="67360071"
+											<value xsi:type="CD" code="6736007"
 												displayName="Moderate"
 												codeSystem="2.16.840.1.113883.6.96"
 												codeSystemName="SNOMED CT"/>
@@ -527,8 +524,7 @@
 												<reference value="#reaction1"/>
 											</text>
 											<statusCode code="completed"/>
-											<!-- BAD Code -->
-											<value xsi:type="CD" code="247472004A"
+											<value xsi:type="CD" code="247472004"
 												codeSystem="2.16.840.1.113883.6.96"
 												displayName="Hives"/>
 										</observation>
@@ -602,9 +598,9 @@
 			<!-- although not listed in test data requirements, required as per CCD -db -->			
 			<component>
 				<section>
-					<!-- *** Medications Section (entries required) (V2) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+					<!-- *** Medications Section (entries required) (V2) *** BAD/Missing Templates -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2014-06-09"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE"/>
 					<title>MEDICATIONS</title>
 					<text>
@@ -696,8 +692,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="24" unit="h"/>
 							</effectiveTime>
-							<!-- BAD Route Code -->
-							<routeCode code="C382881111" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -706,8 +701,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-449e-92b3-5d9815ff4ee8"/>
 									<manufacturedMaterial>
-									    <!-- BAD DRug Code -->
-										<code code="209459AAAA" displayName="Tylenol 500mg" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+										<code code="209459" displayName="Tylenol 500mg" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
@@ -876,9 +870,9 @@
 			<!-- edited as per test doc - all data relevant -db -->		
 			<component>
 				<section>
-					<!--  *** Problem Section (entries required) (V3) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+					<!--  *** Problem Section (entries required) (V3) *** BAD/Missing Template Ids-->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEM LIST"/>
 					<title>PROBLEMS</title>
 					<text>
@@ -931,8 +925,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
 									<id root="ab1791b0-5c71-11db-b0de-0812200c9a68"/>
-									<!-- BAD Code -->
-									<code code="64572001ABC" displayName="Condition" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
+									<code code="64572001" displayName="Condition" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
 										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
 										<!-- Condition seems like the best option:
 										No EXACT requirement was given in the test data -db -->
@@ -946,8 +939,7 @@
 										<!-- The high value reflects when the problem was known to be resolved -->
 										<!-- Absence of effectiveTime/high means the condition is not resolved -->
 									</effectiveTime>
-									<!-- BAD Code -->
-									<value xsi:type="CD" code="83986005ABC" codeSystem="2.16.840.1.113883.6.96" displayName="Severe Hypothyroidism" codeSystemName="SNOMED-CT"/>
+									<value xsi:type="CD" code="83986005" codeSystem="2.16.840.1.113883.6.96" displayName="Severe Hypothyroidism" codeSystemName="SNOMED-CT"/>
 									<!-- removed author as not required -db -->
 								</observation>
 							</entryRelationship>
@@ -1105,9 +1097,9 @@
 			in CCD for Encounters. This will of course work for all other cases as well so is more universal. -db -->
 			<component>
 				<section>
-					<!-- *** Encounters section (entries required) (V3) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.22.1"/>
+					<!-- *** Encounters section (entries required) (V3) *** BAD/Missing Template Id-->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters"/>
 					<title>ENCOUNTERS</title>
 					<text>
@@ -1134,8 +1126,7 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.49"/>
 							<id root="2a620155-9d11-439e-92b3-5d9815ff4de8"/>
-							<!-- BAD Code -->
-							<code code="99234ABC" displayName="Observation or Inpatient Hospital care" codeSystemName="CPT-4" codeSystem="2.16.840.1.113883.6.12">
+							<code code="99234" displayName="Observation or Inpatient Hospital care" codeSystemName="CPT-4" codeSystem="2.16.840.1.113883.6.12">
 								<originalText>
 									<reference value="#Encounter1"/>
 								</originalText>
@@ -1158,8 +1149,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.32"/>
 									<!-- Service Delivery Location template -->
 									<!-- the test data does not specify specific data for this code -db -->
-									<!-- BAD code -->
-									<code code="1160-1AAAA" codeSystem="2.16.840.1.113883.6.259" codeSystemName="HL7 HealthcareServiceLocation" displayName="Urgent Care Center"/>
+									<code code="1160-1" codeSystem="2.16.840.1.113883.6.259" codeSystemName="HL7 HealthcareServiceLocation" displayName="Urgent Care Center"/>
 									<addr>
 										<streetAddressLine>1002 Healthcare Dr</streetAddressLine>
 										<city>Beaverton</city>
@@ -1179,9 +1169,8 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.80" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.19"/>                           
 									<id root="5a784260-6857-4f38-9638-80c851aff2fb"/>
-									<!-- BAD Code -->
 									<code xsi:type="CE" 
-										code="29308-4AAAA"
+										code="29308-4"
 										codeSystem="2.16.840.1.113883.6.1" 
 										codeSystemName="LOINC"
 										displayName="ENCOUNTER DIAGNOSIS"/>
@@ -1195,8 +1184,7 @@
 											<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
 											<id
 												root="ab1791b0-5c71-11db-b0de-0800201c9a66"/>
-											<!-- BAD Code -->
-											<code code="404684003AAAA" displayName="Finding" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
+											<code code="404684003" displayName="Finding" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
 												<!--  this SHALL be present -->
 												<translation code="75321-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Clinical finding"/>
 											</code>
@@ -1205,8 +1193,7 @@
 											<effectiveTime>
 												<low value="20150622"/>
 											</effectiveTime>
-											<!-- BAD Code -->
-											<value xsi:type="CD" code="D63.1AAAABC" displayName="Anemia in Chronic Kidney Disease" codeSystem="2.16.840.1.113883.6.90"/>
+											<value xsi:type="CD" code="D63.1" displayName="Anemia in Chronic Kidney Disease" codeSystem="2.16.840.1.113883.6.90"/>
 										</observation>
 									</entryRelationship>
 								</act>
@@ -1292,9 +1279,9 @@
 			<!-- edited as per test doc - all of this data is directly relevant -db -->
 			<component>
 				<section>
-					<!-- Procedures Section (entries required) (V2) -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.7.1" extension="2014-06-09"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+					<!-- Procedures Section (entries required) (V2) Bad/Missing Template Ids-->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2014-06-09"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF PROCEDURES"/>
 					<title>PROCEDURES</title>
 					<text>
@@ -1324,13 +1311,12 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.14"/>
 							<id root="d68b7e32-7811-4f5b-9cc2-acd54b0fd85d"/>
-							<!-- Bad Code -->
-							<code code="168731009PPPP" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Chest X-Ray, PA and Lateral Views">
+							<code code="168731009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Chest X-Ray, PA and Lateral Views">
 							</code>
 							<statusCode code="completed"/>
 							<effectiveTime value="20150622"/>
 							<methodCode nullFlavor="UNK"/>
-							<targetSiteCode code="82094008PPPPP" displayName="Lower Respiratory Tract Structure" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+							<targetSiteCode code="82094008" displayName="Lower Respiratory Tract Structure" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
 							<!-- removed specimen as not required by test data -db -->
 							<performer>
 								<assignedEntity>
@@ -1434,9 +1420,9 @@
 			<!-- edited as per test doc - NOT all data is relevant, but all entries themselves are relevant -db -->	
 			<component>
 				<section>
-					<!-- *** Immunizations Section (entries required) (V2) *** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+					<!-- *** Immunizations Section (entries required) (V2) *** Bad/Missing Template Ids-->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
 					<title>IMMUNIZATIONS</title>
 					<text>
@@ -1485,8 +1471,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.54"/>
 									<manufacturedMaterial>
-									    <!-- BAD Code -->
-										<code code="106ABAC" codeSystem="2.16.840.1.113883.12.292" displayName="Tetanus and diphtheria toxoids" codeSystemName="CVX">
+										<code code="106" codeSystem="2.16.840.1.113883.12.292" displayName="Tetanus and diphtheria toxoids" codeSystemName="CVX">
 											<!-- i.	This code MAY contain zero or more [0..*] translation, which MAY be selected from ValueSet Vaccine Clinical Drug urn:oid:2.16.840.1.113762.1.4.1010.8 DYNAMIC (CONF:1098-31543).
 													ii.	This code MAY contain zero or more [0..*] translation, which MAY be selected from ValueSet Specific Vaccine Clinical Drug urn:oid:2.16.840.1.113762.1.4.1010.10 DYNAMIC (CONF:1098-31881).
 
@@ -1563,8 +1548,8 @@
 			<component>
 				<section>
 					<!-- ** Vital Signs Section (entries required) (V3) ** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
 					<title>VITAL SIGNS</title>
 					<text>
@@ -1593,8 +1578,7 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.26" extension="2015-08-01"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.26"/>
 							<id root="31b73bd0-cffc-4599-902e-dbe54bc56cb4"/>
-							<!-- BadCode -->
-							<code code="46680005BadCode" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs">
+							<code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs">
 								<!-- A vitals organizer conformant to both C-CDA 1.1 and C-CDA 2.1 would contain the SNOMED code (46680005) from R1.1 in the root code and a LOINC code in the translation -->
 								<translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs"/>
 							</code>
@@ -1609,12 +1593,10 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.27"/>
 									<id root="a0e39c70-9675-4b2a-9838-cdf74200d8d5"/>
-									<!-- Bad Code -->
-									<code code="8867-4VVVV" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Heart Rate"/>
+									<code code="8867-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Heart Rate"/>
 									<statusCode code="completed"/>
 									<effectiveTime value="201506221010-0500"/>
-									<!-- Bad unit -->
-									<value xsi:type="PQ" value="80" unit="xyzzzzzzz"/>
+									<value xsi:type="PQ" value="80" unit="/min"/>
 									<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
 								</observation>
 							</component>
@@ -1641,8 +1623,8 @@
 			<component>
 				<section>
 					<!--  ** Social History Section (V3) ** -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/>
+					<templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/>
 					<code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social History"/>
 					<title>SOCIAL HISTORY</title>
 					<text>
@@ -1676,8 +1658,7 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.85"/>
 							<id root="45efb604-7049-4a2e-ad33-d38556c9636c"/>
 							<!-- code SHALL be 11367-0 for Tobacco use (V2) -db -->
-							<!-- Bad Code -->
-							<code code="11367-0TTTTTT" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of tobacco use"/>
+							<code code="11367-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of tobacco use"/>
 							<statusCode code="completed"/>
 							<effectiveTime>
 								<!-- The low value reflects the start date of the observation/value -->
@@ -1686,8 +1667,7 @@
 								<high value="20110227"/>
 							</effectiveTime>
 							<!-- Consol Tobacco Use SHALL contain exactly one [1..1] value with @xsi:type="CD" (CONF:16562, R2.0=CONF:1098-16562), which SHALL be selected from ValueSet Tobacco Use 2.16.840.1.113883.11.20.9.41 DYNAMIC (CONF:16563, R2.0=CONF:1098-16563) -db -->
-							<!-- Bad Code -->
-							<value xsi:type="CD" code="428071000124103SSSTTTTT" displayName="Heavy tobacco smoker" codeSystem="2.16.840.1.113883.6.96"/>
+							<value xsi:type="CD" code="428071000124103" displayName="Heavy tobacco smoker" codeSystem="2.16.840.1.113883.6.96"/>
 						</observation>
 					</entry>
 					<!-- TODO: If required due to value 428071000124103 not being in Tobacco Use 2.16.840.1.113883.11.20.9.41 valueSet, 
@@ -1703,15 +1683,13 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.78"/>
 							<id extension="123456789" root="2.16.840.1.113883.19"/>
 							<!-- code SHALL be 72166-2 for Smoking Status - Meaningful Use (V2) -db -->
-							<!-- Bad Code -->
-							<code code="72166-2SSSSTTTTTT" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Tobacco smoking status NHIS"/>
+							<code code="72166-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Tobacco smoking status NHIS"/>
 							<statusCode code="completed"/>
 							<!-- The effectiveTime reflects when the current smoking status was observed. -->
 							<effectiveTime value="20150622"/>
 							<!-- The value represents the patient's smoking status currently observed. -->
 							<!-- Consol Smoking Status Meaningful Use2 SHALL contain exactly one [1..1] value (CONF:1098-14810), which SHALL be selected from ValueSet Current Smoking Status 2.16.840.1.113883.11.20.9.38 STATIC 2014-09-01 (CONF:1098-14817) -db -->
-							<!-- Bad Code -->
-							<value xsi:type="CD" code="449868002SSSTTTT" displayName="Current every day smoker" codeSystem="2.16.840.1.113883.6.96"/>
+							<value xsi:type="CD" code="449868002" displayName="Current every day smoker" codeSystem="2.16.840.1.113883.6.96"/>
 						</observation>
 					</entry>					
 					<!-- removed Social history observation (V3) entry for "Alcoholic drinks per day" -db -->
@@ -1722,9 +1700,9 @@
 			<!-- edited as per test doc - all of this data is directly relevant -db -->
 			<component>
 				<section>
-					<!-- Results Section (entries required) (V3) -->
-					<templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01"/>
-					<templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+					<!-- Results Section (entries required) (V3) Bad/Missing Template Id-->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9" extension="2015-08-01"/> -->
+					<!-- <templateId root="2.16.840.1.113883.10.20.1.2.3.4.5.6.7.8.9"/> -->
 					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RESULTS"/>
 					<title>RESULTS</title>
 					<text>
@@ -1798,8 +1776,7 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.1"/>
 							<id root="7d5a02b0-67a4-11db-bd13-0800221c9a23"/>
-							<!-- Bad Code -->
-							<code code="22032-7ABCDEFG" displayName="Lab tests Narrative" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<code code="22032-7" displayName="Lab tests Narrative" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 							<statusCode code="completed"/>
 							<effectiveTime>
 								<low value="20150622"/>
@@ -1811,15 +1788,13 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.2"/>
 									<id root="f1aa44dd-6f39-4f5c-b267-897c3824b673"/>
-									<!-- Bad Code -->
-									<code code="33765-9LLLLLL" displayName="WBC" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<code code="33765-9" displayName="WBC" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 									<text>
 										<reference value="#resultC"/>
 									</text>
 									<statusCode code="completed"/>
 									<effectiveTime value="20150622"/>
-									<!-- Bad unit -->
-									<value xsi:type="PQ" value="12.3" unit="sdfkslfj"/>
+									<value xsi:type="PQ" value="12.3" unit="10*3/uL"/>
 									<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
 									    <referenceRange>
 										    <observationRange>

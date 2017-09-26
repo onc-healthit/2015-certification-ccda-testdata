@@ -8,7 +8,7 @@
  The file depicts a fictional character's health data. Any resemblance to a real person is coincidental. 
  To illustrate as many data elements as possible, the clinical scenario may not be plausible. 
  The data in this sample file is not intended to represent real patients, people or clinical events. 
- This sample is designed to be used in conjunction with the C-CDA Clinical Notes Implementation Guide.
+ This sample is designed to be used in conjunction with the C-CDA Clinical Notes Implementation Guide. 
  ********************************************************
  -->
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
