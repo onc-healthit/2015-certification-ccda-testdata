@@ -1401,7 +1401,7 @@ MEDICATIONS
                         <tr ID="MED_1">
                            <td><content
                                  ID="Med1">Albuterol 0.09 MG/ACTUAT inhalant powder</content></td>
-                           <td>0.09 MG/ACTUAT inhalant powder, 2 puffs once</td>
+                           <td>0.09 MG/ACTUAT inhalant powder, 2 puffs</td>
                            <td>20120806</td>
                            <td>Active</td>
                            <td>Pneumonia (233604007 SNOMED-CT)</td>
@@ -1451,8 +1451,8 @@ MEDICATIONS
                         value="90"
                         unit="ml/min"/>
                      <administrationUnitCode
-                        code="C42944"
-                        displayName="INHALANT"
+                        code="C65060"
+                        displayName="Puff Dosing Unit"
                         codeSystem="2.16.840.1.113883.3.26.1.1"
                         codeSystemName="NCI Thesaurus"/>
                      <consumable>
