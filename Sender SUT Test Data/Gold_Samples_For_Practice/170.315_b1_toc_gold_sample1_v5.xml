@@ -431,18 +431,6 @@
 									</td>
 									<td>Active</td>
 								</tr>
-								<tr>
-									<td>
-										<content ID="product3">Clindamycin Hydrochloride</content>
-									</td>
-									<td>
-										<content ID="reaction3">N/A</content>
-									</td>
-									<td>
-										<content ID="severity3">N/A</content>
-									</td>
-									<td>Completed</td>
-								</tr>
 							</tbody>
 						</table>
 					</text>
@@ -533,64 +521,6 @@
 												displayName="Hives"/>
 										</observation>
 									</entryRelationship>
-								</observation>
-							</entryRelationship>
-						</act>
-					</entry>
-					<!-- NO ALLERGIES TO Clindamycin Hydrochloride / 3 -->
-					<!-- referenced HL7-C-CDA-Task-Force-Examples here for reference on 
-					how to apply not allergic to a medication:
-					https://github.com/brettmarquard/HL7-C-CDA-Task-Force-Examples/blob/master/No_Known_Allergies_Status_with_Author_Timestamp.xml -->
-					<entry typeCode="DRIV">
-						<act classCode="ACT" moodCode="EVN">
-							<!-- ** Allergy Concern Act (V3) ** -->
-							<templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01"/>
-							<!--Critical Change-->
-							<templateId root="2.16.840.1.113883.10.20.22.4.30"/>
-							<id root="b03805bd-2eb6-4ab8-a9ff-475c6653971a"/>
-							<code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
-							<!-- The statusCode represents the need to continue tracking the allergy -->
-							<!-- This is of ongoing concern to the provider -->
-							<statusCode code="completed"/>
-							<effectiveTime>
-								<low nullFlavor="NA"/>
-								<high value="20150622"/>
-							</effectiveTime>
-							<entryRelationship typeCode="SUBJ">
-								<!-- The negationInd = true negates the observation/value 
-								Therefore we are saying that the patient is 
-								NOT allergic to the referenced drug -db -->
-								<observation classCode="OBS" moodCode="EVN" negationInd="true">
-									<!-- ** Allergy observation (V2) ** -->
-									<templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09"/>
-									<templateId root="2.16.840.1.113883.10.20.22.4.7"/>
-									<id root="4adc1020-7b14-16db-9fe1-0800200c9a66"/>
-									<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
-									<!-- Observation statusCode represents the status of the act of observing -->
-									<statusCode code="completed"/>
-									<effectiveTime nullFlavor="NA"/>
-									<value xsi:type="CD" code="419511003"
-										displayName="Propensity to adverse reaction to drug"
-										codeSystem="2.16.840.1.113883.6.96"
-										codeSystemName="SNOMED CT">
-										<originalText>
-											<reference value="#reaction3"/>
-										</originalText>
-									</value>
-									<participant typeCode="CSM">
-										<participantRole classCode="MANU">
-											<playingEntity classCode="MMAT">
-												<code code="81982"
-												displayName="Clindamycin Hydrochloride"
-												codeSystem="2.16.840.1.113883.6.88"
-												codeSystemName="RxNorm">
-												<originalText>
-												<reference value="#product3"/>
-												</originalText>
-												</code>
-											</playingEntity>
-										</participantRole>
-									</participant>
 								</observation>
 							</entryRelationship>
 						</act>
