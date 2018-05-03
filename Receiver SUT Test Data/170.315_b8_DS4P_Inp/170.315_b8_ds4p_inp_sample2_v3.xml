@@ -578,7 +578,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="C38276" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="INTRAVENOUS"/>
+							<routeCode code="47625008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="INTRAVENOUS"/>
 							<doseQuantity value="1"/>
 							<!-- we don't need an administrationUnitCode element since we have an exact amount specified for injection
 							nor would any code match if we did:
@@ -612,7 +612,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="C38288" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -1403,7 +1403,7 @@
 							</text>
 							<statusCode code="completed"/>
 							<effectiveTime value="20140510"/>
-							<routeCode code="C28161" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
+							<routeCode code="78421000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Immunization Medication Information (V2) ** -->
@@ -1432,7 +1432,7 @@
 							</text>
 							<statusCode code="completed"/>
 							<effectiveTime value="20120104"/>
-							<routeCode code="C28161" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
+							<routeCode code="78421000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Immunization Medication Information (V2) ** -->
@@ -1472,7 +1472,7 @@
 							but may not be the recommended approach -db -->
 							<statusCode code="completed"/>
 							<effectiveTime value="20150622"/>
-							<routeCode code="C28161" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
+							<routeCode code="78421000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Immunization Medication Information (V2) ** -->
