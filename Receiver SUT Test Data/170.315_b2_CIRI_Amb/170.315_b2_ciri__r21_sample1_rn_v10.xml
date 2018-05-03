@@ -25,46 +25,46 @@
 	<!-- US Realm Header ID-->
 	<templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01"/>
 	<templateId root="2.16.840.1.113883.10.20.22.1.1"/>
-	<!-- CCD template ID-->
-	<templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01"/>
-	<templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+	<!-- Referral Note (V2) template ID -->
+	<templateId root="2.16.840.1.113883.10.20.22.1.14" extension="2015-08-01"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.14"/>
 	<!-- Globally unique identifier for the document  -->
-	<id extension="CIRI_4" root="2.16.840.1.113883.19.5.99999.1"/>
-	<code code="34133-9" displayName="Summarization of Episode Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+	<id extension="CIRI_8" root="2.16.840.1.113883.19.5.99999.1"/>
+	<code code="57133-1" displayName="Referral Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
 	<!-- Title of this document -->
-	<title>170.315_b2_ciri_r21_sample1_ccd test data</title>
+	<title>170.315_b2_ciri_r21_sample1_rn test data</title>
 	<effectiveTime value="20150622"/>
 	<confidentialityCode code="N" displayName="normal" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"/>
 	<languageCode code="en-US"/>
-	<setId extension="sTT111" root="2.16.840.1.113883.19.5.99999.19"/>
+	<setId extension="sTT114" root="2.16.840.1.113883.19.5.99999.19"/>
 	<!-- Version of this document -->
 	<versionNumber value="1"/>
 	<recordTarget>
 		<patientRole>
-			<id extension="123333346" root="2.16.840.1.113883.4.1"/>
+			<id extension="126363356" root="2.16.840.1.113883.4.1"/>
 			<!-- Example Social Security Number using the actual SSN OID. -->
 			<addr use="HP">
 				<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
-				<streetAddressLine>1011 Amber Dr</streetAddressLine>
+				<streetAddressLine>1014 Amber Dr</streetAddressLine>
 				<city>Beaverton</city>
 				<state>OR</state>
 				<postalCode>97006</postalCode>
 				<country>US</country>
 				<!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
 			</addr>
-			<telecom value="tel:+1(555)-335-1234" use="MC"/>
-			<telecom value="tel:+1(555)-336-1544" use="HP"/>
+			<telecom value="tel:+1(555)-339-1234" use="MC"/>
+			<telecom value="tel:+1(555)-340-1544" use="HP"/>
 			<!-- HP is "primary home" from HL7 AddressUse 2.16.840.1.113883.5.1119 -->
 			<patient>
 				<name use="L">
-					<given>Susan</given>
-					<given qualifier="BR">Susy</given>
-					<given>Jones</given>
-					<family>Turner</family>
+					<given>Cecilia</given>
+					<given qualifier="BR">Cecil</given>
+					<given>Franklin</given>
+					<family>Cummings</family>
 				</name>
 				<administrativeGenderCode code="F" displayName="Female" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender"/>
 				<!-- Date of birth need only be precise to the day -->
-				<birthTime value="19700801"/>
+				<birthTime value="19700701"/>
 				<maritalStatusCode code="M" displayName="Married" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode"/>
 				<religiousAffiliationCode code="1013" displayName="Christian (non-Catholic, non-specific)" codeSystem="2.16.840.1.113883.5.1076" codeSystemName="HL7 Religious Affiliation"/>
 				<!-- CDC Race and Ethnicity code set contains the five minimum race and ethnicity 
@@ -171,8 +171,8 @@
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<relatedPerson>
 				<name>
-					<given>Michael</given>
-					<family>Turner</family>
+					<given>Nick</given>
+					<family>Cummings</family>
 				</name>
 			</relatedPerson>
 		</relatedEntity>
@@ -263,19 +263,19 @@
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<addr use="HP">
 				<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
-				<streetAddressLine>1011 Amber Dr</streetAddressLine>
+				<streetAddressLine>1014 Amber Dr</streetAddressLine>
 				<city>Beaverton</city>
 				<state>OR</state>
 				<postalCode>97006</postalCode>
 				<country>US</country>
 				<!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
 			</addr>
-			<telecom value="tel:+1(555)-336-1544" use="HP"/>
+			<telecom value="tel:+1(555)-340-1544" use="HP"/>
 			<associatedPerson>
 				<name>
 					<prefix>Mr</prefix>
-					<given>Jeremy</given>
-					<family>Maxwell</family>
+					<given>Derek</given>
+					<family>Franklin</family>
 				</name>
 			</associatedPerson>
 		</associatedEntity>
@@ -288,19 +288,19 @@
 				codeSystemName="Personal Relationship Role Type Value Set"/>
 			<addr use="HP">
 				<!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
-				<streetAddressLine>1011 Amber Dr</streetAddressLine>
+				<streetAddressLine>1014 Amber Dr</streetAddressLine>
 				<city>Beaverton</city>
 				<state>OR</state>
 				<postalCode>97006</postalCode>
 				<country>US</country>
 				<!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
 			</addr>
-			<telecom value="tel:+1(555)-336-1544" use="HP"/>
+			<telecom value="tel:+1(555)-340-1544" use="HP"/>
 			<associatedPerson>
 				<name>
 					<prefix>Mr</prefix>
-					<given>Michael</given>
-					<family>Turner</family>
+					<given>Nick</given>
+					<family>Cummings</family>
 				</name>
 			</associatedPerson>
 		</associatedEntity>
@@ -449,7 +449,7 @@
 							<templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01"/>
 							<!--Critical Change-->
 							<templateId root="2.16.840.1.113883.10.20.22.4.30"/>
-							<id root="36e3e930-7b14-11db-9fe1-0800200c9a66"/>
+							<id root="36e3e930-9a10-42a0-9fe1-0800200c9a66"/>
 							<code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
 							<!-- The statusCode represents the need to continue tracking the allergy -->
 							<!-- This is of ongoing concern to the provider -->
@@ -463,7 +463,7 @@
 									<!-- ** Allergy observation (V2) ** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.7"/>
-									<id root="4adc1020-7b14-11db-9fe1-0800200c9a66"/>
+									<id root="4adc1020-9a11-42a1-9fe1-0800200c9a66"/>
 									<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
 									<!-- Observation statusCode represents the status of the act of observing -->
 									<statusCode code="completed"/>
@@ -505,18 +505,18 @@
 												</code>
 											</playingEntity>
 										</participantRole>
-									</participant>									
+									</participant>								
 									<entryRelationship typeCode="MFST" inversionInd="true">
 										<observation classCode="OBS" moodCode="EVN">
 											<!-- ** Reaction Observation (V2) ** -->
 											<templateId root="2.16.840.1.113883.10.20.22.4.9" extension="2014-06-09"/>
 											<templateId root="2.16.840.1.113883.10.20.22.4.9"/>
-											<id root="4adc1020-7b14-11db-9fe1-0800200c9a67"/>
+											<id root="4adc1020-9a12-42a2-9fe1-0800200c9a67"/>
 											<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
 											<text>
 												<reference value="#reaction1"/>
 											</text>
-											<statusCode code="completed"/>	
+											<statusCode code="completed"/>						
 											<value xsi:type="CD" code="247472004"
 												codeSystem="2.16.840.1.113883.6.96"
 												displayName="Hives"/>
@@ -584,7 +584,7 @@
 							<!-- ** Medication Activity (V2) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-							<id root="cdbd33f0-6cde-11db-9fe1-0800200c9a66"/>
+							<id root="cdbd33f0-9a15-42a5-9fe1-0800200c9a66"/>
 							<statusCode code="active"/>
 							<effectiveTime xsi:type="IVL_TS">
 								<low value="20150622"/>
@@ -593,7 +593,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="INTRAVENOUS"/>
+							<routeCode code="47625008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="INTRAVENOUS"/>
 							<doseQuantity value="1"/>
 							<!-- we don't need an administrationUnitCode element since we have an exact amount specified for injection
 							nor would any code match if we did:
@@ -603,27 +603,27 @@
 									<!-- ** Medication information ** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
-									<id root="2a620155-9d11-439e-92b3-5d9815ff4ee8"/>
+									<id root="2a620155-9a16-42a6-92b3-5d9815ff4ee8"/>
 									<manufacturedMaterial>
 										<code code="309090" codeSystem="2.16.840.1.113883.6.88" displayName="Ceftriaxone 100MG/ML"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
 							<author>
-								<time value="20150622"/>
-								<assignedAuthor>
-									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-										displayName="Allopathic &amp; Osteopathic Physicians"/>
-									<telecom use="WP" value="tel:+1(555)-555-1002"/>
-									<assignedPerson>
-										<name>
-											<given>Albert</given>
-											<family>Davis</family>
-										</name>
-									</assignedPerson>
-								</assignedAuthor>
-							</author>
+										<time value="20150622"/>
+										<assignedAuthor>
+											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+												displayName="Allopathic &amp; Osteopathic Physicians"/>
+											<telecom use="WP" value="tel:+1(555)-555-1002"/>
+											<assignedPerson>
+												<name>
+													<given>Albert</given>
+													<family>Davis</family>
+												</name>
+											</assignedPerson>
+										</assignedAuthor>
+									</author>
 							<entryRelationship typeCode="COMP">
 								<!-- moodCode matches the parent substanceAdministration EVN or INT -->
 								<substanceAdministration classCode="SBADM" moodCode="EVN">
@@ -650,7 +650,7 @@
 							<!-- ** Medication activity (V2) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09"/>
 							<templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-							<id root="6c844c75-aa34-411c-b7bd-5e4a9f206e29"/>
+							<id root="6c844c75-9a17-42a7-b7bd-5e4a9f206e29"/>
 							<statusCode code="active"/>
 							<effectiveTime xsi:type="IVL_TS">
 								<low value="20150622"/>
@@ -661,34 +661,34 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="24" unit="h"/>
 							</effectiveTime>
-							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
+							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Medication information ** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
-									<id root="2a620155-9d11-439e-92b3-5d9816ff4ee8"/>
+									<id root="2a620155-9a18-42a8-92b3-5d9816ff4ee8"/>
 									<manufacturedMaterial>
 										<code code="209459" displayName="Tylenol 500mg" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
 							<author>
-								<time value="20150622"/>
-								<assignedAuthor>
-									<id extension="999999999" root="2.16.840.1.113883.4.6"/>
-									<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
-										displayName="Allopathic &amp; Osteopathic Physicians"/>
-									<telecom use="WP" value="tel:+1(555)-555-1002"/>
-									<assignedPerson>
-										<name>
-											<given>Albert</given>
-											<family>Davis</family>
-										</name>
-									</assignedPerson>
-								</assignedAuthor>
-							</author>
+										<time value="20150622"/>
+										<assignedAuthor>
+											<id extension="999999999" root="2.16.840.1.113883.4.6"/>
+											<code code="200000000X" codeSystem="2.16.840.1.113883.6.101"
+												displayName="Allopathic &amp; Osteopathic Physicians"/>
+											<telecom use="WP" value="tel:+1(555)-555-1002"/>
+											<assignedPerson>
+												<name>
+													<given>Albert</given>
+													<family>Davis</family>
+												</name>
+											</assignedPerson>
+										</assignedAuthor>
+									</author>
 							<entryRelationship typeCode="COMP">
 								<!-- moodCode matches the parent substanceAdministration EVN or INT -->
 								<substanceAdministration classCode="SBADM" moodCode="EVN">
@@ -745,7 +745,7 @@
 							<!-- ** Problem Concern Act (V3) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
 							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
-							<id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45df9" />
+							<id root="ec8a6ff8-9a19-42a9-82c3-e98e58b45df9" />
 							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
 							<!-- The statusCode represents the need to continue tracking the problem -->
 							<!-- This is of ongoing concern to the provider -->
@@ -760,8 +760,8 @@
 									<!-- ** Problem observation  (V3)** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-5c71-11db-b0de-0800200c9a79"/>
-									<code code="282291009" displayName="Diagnosis" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
+									<id root="ab1791b0-9a20-42b0-b0de-0800200c9a79"/>
+									<code code="29308" displayName="Diagnosis" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
 										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
 										<!-- Diagnosis seems like the best option:
 										No EXACT requirement was given in the test data -db -->
@@ -801,7 +801,7 @@
 							<!-- ** Problem Concern Act (V3) ** -->
 							<templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
 							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
-							<id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45df8" />
+							<id root="ec8a6ff8-9a21-42b1-82c3-e98e58b45df8" />
 							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
 							<!-- The statusCode represents the need to continue tracking the problem -->
 							<!-- This is of ongoing concern to the provider -->
@@ -818,7 +818,7 @@
 									<!-- ** Problem observation  (V3)** -->
 									<templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
 									<templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-									<id root="ab1791b0-5c71-11db-b0de-0800200c2b11"/>
+									<id root="ab1791b0-9a22-42b2-b0de-0800200c2b11"/>
 									<code code="29308" displayName="Diagnosis" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
 										<!-- a.	This code SHALL contain at least one [1..*] translation, which SHOULD be selected from ValueSet Problem Type (LOINC) -->
 										<!-- Diagnosis seems like the best option:
@@ -949,7 +949,7 @@
 										 <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
 										 <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
 										 <id
-											root="ab1791b0-5c71-12db-b0de-0800200c9a66"/>
+											root="ab1791b0-5c71-13db-b0de-0800200c9a66"/>
 										 <code code="404684003" displayName="Finding" codeSystemName="SNOMED-CT" codeSystem="2.16.840.1.113883.6.96">
 											<!--  this SHALL be present -->
 											<translation code="75321-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Clinical finding"/>
@@ -1159,6 +1159,7 @@
 				</section>
 			</component>
 			
+		
 		</structuredBody>
 	</component>
 </ClinicalDocument>
