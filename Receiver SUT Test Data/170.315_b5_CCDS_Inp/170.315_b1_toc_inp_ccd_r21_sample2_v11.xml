@@ -1270,7 +1270,7 @@
 							represents the time that the medication activity should occur. -->
 						  <effectiveTime value="20150722" />						  
 						  <!-- added for inp -db -->					  
-						  <routeCode code="C38288" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+						  <routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
 						  <doseQuantity value="1"/>						  
 						  <consumable>
 							<manufacturedProduct classCode="MANU">
