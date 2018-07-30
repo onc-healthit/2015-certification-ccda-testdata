@@ -731,7 +731,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="47625008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="INTRAVENOUS"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<!-- we don't need an administrationUnitCode element since we have an exact amount specified for injection
 							nor would any code match if we did:
@@ -765,7 +765,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -797,7 +797,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="24" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -828,7 +828,7 @@
 							<effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
 								<period value="7" unit="d"/>
 							</effectiveTime>
-							<routeCode code="47625008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="INTRAVENOUS"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<!-- we don't need an administrationUnitCode element since we have an exact amount specified for injection
 							nor would any code match if we did:
@@ -861,7 +861,7 @@
 							<!-- TID (3x per day) -db -->
 								<period value="8" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 							<manufacturedProduct classCode="MANU">
@@ -890,7 +890,7 @@
 								<!-- QD / once per day -db -->
 								<period value="24" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -920,7 +920,7 @@
 								<!-- QD / once per day -db -->
 								<period value="24" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -950,7 +950,7 @@
 								<!-- QD / once per day -db -->
 								<period value="24" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -981,7 +981,7 @@
 							<effectiveTime xsi:type="EIVL_TS" operator="A">
 								<event code="HS"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -1011,7 +1011,7 @@
 							<!-- BID / 2x per day -db -->
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -1041,7 +1041,7 @@
 							<!-- BID / 2x per day -db -->
 								<period value="12" unit="h"/>
 							</effectiveTime>
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -1071,7 +1071,7 @@
 							<!-- TID (3x per day) -db -->
 								<period value="8" unit="h"/>
 							</effectiveTime>	
-							<routeCode code="26643006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="ORAL"/>
+							<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="ORAL"/>
 							<doseQuantity value="1"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
@@ -1912,7 +1912,7 @@
 							</text>
 							<statusCode code="completed"/>
 							<effectiveTime value="20140510"/>
-							<routeCode code="78421000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
+							<routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="Intramuscular injection"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Immunization Medication Information (V2) ** -->
@@ -1941,7 +1941,7 @@
 							</text>
 							<statusCode code="completed"/>
 							<effectiveTime value="20120104"/>
-							<routeCode code="78421000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
+							<routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="Intramuscular injection"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Immunization Medication Information (V2) ** -->
@@ -1981,7 +1981,7 @@
 							but may not be the recommended approach -db -->
 							<statusCode code="completed"/>
 							<effectiveTime value="20150622"/>
-							<routeCode code="78421000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Intramuscular injection"/>
+							<routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="Intramuscular injection"/>
 							<consumable>
 								<manufacturedProduct classCode="MANU">
 									<!-- ** Immunization Medication Information (V2) ** -->
