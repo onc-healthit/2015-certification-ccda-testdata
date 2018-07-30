@@ -1497,7 +1497,7 @@
 								<!-- ** Encounter Diagnosis (V3)** -->								
 								<act classCode="ACT" moodCode="EVN"> 				
 									<templateId root="2.16.840.1.113883.10.20.22.4.80" extension="2015-08-01"/>
-									<templateId root="2.16.840.1.113883.10.20.22.4.19"/>                           
+									<templateId root="2.16.840.1.113883.10.20.22.4.80"/>    
 									<id root="5a784260-6857-4f38-9638-80c851aff2fb"/>
 									<code xsi:type="CE" 
 										code="29308-4"
@@ -1822,6 +1822,7 @@
 				<entry>
 				  <procedure classCode="PROC" moodCode="EVN">
 					<templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09"/>
+					<templateId root="2.16.840.1.113883.10.20.22.4.14"/>
 					<id extension="2744" root="1.2.840.114350.1.13.5552.1.7.2.737780"/>
 					<code nullFlavor="UNK"/>
 					<!-- Procedure is completed, even though the implant is still active -->
