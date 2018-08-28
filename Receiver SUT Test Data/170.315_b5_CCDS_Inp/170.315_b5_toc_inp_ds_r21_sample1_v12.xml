@@ -776,7 +776,7 @@
 									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
 									<id root="2a620155-9d11-439e-92b3-5d9816ff4ee8"/>
 									<manufacturedMaterial>
-										<code code="214078" displayName="Vantin 200MG (cefpodoxime 200mg)" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+										<code code="309078" displayName="cefpodoxime 200 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
 									</manufacturedMaterial>
 								</manufacturedProduct>
 							</consumable>
