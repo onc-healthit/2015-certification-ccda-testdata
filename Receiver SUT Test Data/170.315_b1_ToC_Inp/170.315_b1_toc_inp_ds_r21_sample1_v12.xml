@@ -3196,7 +3196,7 @@
 								<act classCode="ACT" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
 									<!-- This ID equals the problem, HyperTension in this case -db -->
-									<id root="ab1791b0-5c71-11db-b0de-0800200c9a66"/>
+									<id root="ab1791b0-5c71-11db-b0de-0811200c9a66"/>
 									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
 									<code nullFlavor="NP"/>
 									<statusCode code="completed"/>
@@ -3206,7 +3206,7 @@
 								<act classCode="ACT" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
 									<!-- This ID equals the problem, HypoThyroidism in this case -db -->
-									<id root="ab1791b0-5c71-11db-b0de-0800200c9a68"/>						
+									<id root="ab1791b0-5c71-11db-b0de-0812200c9a68"/>						
 									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
 									<code nullFlavor="NP"/>
 									<statusCode code="completed"/>
@@ -3217,7 +3217,7 @@
 								<act classCode="ACT" moodCode="EVN">
 									<templateId root="2.16.840.1.113883.10.20.22.4.122"/>
 									<!-- This ID equals the problem, Anemia in this case -db -->
-									<id root="ab1791b0-5c71-11db-6616-6666666c6a66"/>						
+									<id root="ab1791b0-5c71-11db-6626-6666666c6a66"/>						
 									<!-- The code is nulled to "NP" Not Present" (as specified in reference -db) -->
 									<code nullFlavor="NP"/>
 									<statusCode code="completed"/>
