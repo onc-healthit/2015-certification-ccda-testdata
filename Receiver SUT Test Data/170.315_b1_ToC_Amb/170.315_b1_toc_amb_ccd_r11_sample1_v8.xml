@@ -1230,7 +1230,7 @@ MEDICATIONS
                         displayName="RESPIRATORY (INHALATION)"/>
                      <doseQuantity
                         value="0.09"
-                        unit="mg/actuat"/>
+                        unit="mg"/>
                      <administrationUnitCode
                         code="C42944"
                         displayName="INHALANT"
