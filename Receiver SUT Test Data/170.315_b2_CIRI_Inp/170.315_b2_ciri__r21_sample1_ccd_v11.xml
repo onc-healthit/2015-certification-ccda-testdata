@@ -58,7 +58,6 @@
 			<patient>
 				<name use="L">
 					<given>Susan</given>
-					<given qualifier="BR">Susy</given>
 					<given>Jones</given>
 					<family>Turner</family>
 				</name>
