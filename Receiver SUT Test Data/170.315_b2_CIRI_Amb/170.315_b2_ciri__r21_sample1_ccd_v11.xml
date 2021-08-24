@@ -58,9 +58,11 @@
 			<patient>
 				<name use="L">
 					<given>Susan</given>
-					<given qualifier="BR">Susy</given>
 					<given>Jones</given>
 					<family>Turner</family>
+				</name>
+				<name>
+					<given qualifier="BR">Susy</given>
 				</name>
 				<administrativeGenderCode code="F" displayName="Female" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender"/>
 				<!-- Date of birth need only be precise to the day -->
